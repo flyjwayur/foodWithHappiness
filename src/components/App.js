@@ -1,11 +1,11 @@
 import React from "react";
-import Restaurant from './Restaurant'
+import Restaurants from "./Restaurants";
 
 const App = () => {
   return (
     <div>
-      <Restaurant/>
       <h1>Happy food delivery and great experience :D</h1>
+      <Restaurants />
     </div>
   );
 };
