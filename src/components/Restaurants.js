@@ -14,8 +14,11 @@ const Restaurants = () => {
     <div>
       <button
         onClick={() => {
-          setAscend(!ascend);
-          setSortedRestaurants(sortByName(data.restaurants, ascend));
+          let prevAscend = ascend;
+          setAscend(!prevAscend);
+          setSortedRestaurants(prevRestaurants =>
+            sortByName(prevRestaurants, !prevAscend)
+          );
         }}
       >
         <span>Ascending/Descending order</span>
