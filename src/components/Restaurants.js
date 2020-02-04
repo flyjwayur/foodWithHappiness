@@ -1,11 +1,14 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Blurhash } from "react-blurhash";
 import data from "../data/restaurants.json";
 import { sortByName } from "../util/sortArray";
 
 const Restaurants = () => {
   const [ascend, setAscend] = useState(true);
-  const [sortedRestaurants, setSortedRestaurants] = useState([]);
+  //Arrange restaurants in ascending order initially
+  const [sortedRestaurants, setSortedRestaurants] = useState(
+    sortByName(data.restaurants, ascend)
+  );
   const [isLoading, setIsLoading] = useState([
     true,
     true,
@@ -59,10 +62,6 @@ const Restaurants = () => {
     true
   ]);
 
-  useEffect(() => {
-    setSortedRestaurants(sortByName(data.restaurants, ascend));
-  }, [ascend]);
-
   const finishLoading = idx => {
     let loadingStatus = [...isLoading];
     loadingStatus[idx] = false;
@@ -71,7 +70,12 @@ const Restaurants = () => {
 
   return (
     <div>
-      <button onClick={() => setAscend(!ascend)}>
+      <button
+        onClick={() => {
+          setAscend(!ascend);
+          setSortedRestaurants(sortByName(data.restaurants, ascend));
+        }}
+      >
         <span>Ascending/Descending order</span>
       </button>
       {sortedRestaurants.map((restaurant, i) => {
