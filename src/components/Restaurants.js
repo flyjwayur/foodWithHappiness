@@ -1,14 +1,20 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import data from "../data/restaurants.json";
 import { sortByName } from "../util/sortArray";
 import Restaurant from "./Restaurant";
 
 const Restaurants = () => {
-  const [ascend, setAscend] = useState(true);
+  const [isContentsLoading, setContentsLoading] = useState(true);
   //Arrange restaurants in ascending order initially
+  const [ascend, setAscend] = useState(true);
   const [sortedRestaurants, setSortedRestaurants] = useState(
     sortByName(data.restaurants, ascend)
   );
+
+  //Check a content loading status to display a skeleton screen as a placeholder when data is loading
+  useEffect(() => {
+    setContentsLoading(false);
+  }, [sortedRestaurants]);
 
   return (
     <div>
@@ -25,7 +31,11 @@ const Restaurants = () => {
       </button>
       {sortedRestaurants.map((restaurant, i) => {
         return (
-          <Restaurant key={restaurant.name + "_" + i} restaurant={restaurant} />
+          <Restaurant
+            key={restaurant.name + "_" + i}
+            restaurant={restaurant}
+            isContentsLoading={isContentsLoading}
+          />
         );
       })}
     </div>
