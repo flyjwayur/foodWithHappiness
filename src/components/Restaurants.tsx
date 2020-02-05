@@ -1,17 +1,19 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, FunctionComponent } from "react";
 import data from "../data/restaurants.json";
 import { sortByName } from "../util/sortArray";
 import Restaurant from "./Restaurant";
+import { IDataRestaurant } from "../index.d"
 
-const Restaurants = () => {
+
+const Restaurants: FunctionComponent = () => {
   const [isContentsLoading, setContentsLoading] = useState(true);
-  //Arrange restaurants in ascending order initially
+  // Arrange restaurants in ascending order initially
   const [ascend, setAscend] = useState(true);
   const [sortedRestaurants, setSortedRestaurants] = useState(
     sortByName(data.restaurants, ascend)
   );
 
-  //Check a content loading status to display a skeleton screen as a placeholder when data is loading
+  // Check a content loading status to display a skeleton screen as a placeholder when data is loading
   useEffect(() => {
     setContentsLoading(false);
   }, [sortedRestaurants]);
@@ -20,16 +22,16 @@ const Restaurants = () => {
     <div>
       <button
         onClick={() => {
-          let prevAscend = ascend;
+          const prevAscend = ascend;
           setAscend(!prevAscend);
-          setSortedRestaurants(prevRestaurants =>
-            sortByName(prevRestaurants, !prevAscend)
+          setSortedRestaurants((prevRestaurants: IDataRestaurant[]) =>
+            sortByName(prevRestaurants as IDataRestaurant[], !prevAscend)
           );
         }}
       >
         <span>Ascending/Descending order</span>
       </button>
-      {sortedRestaurants.map((restaurant, i) => {
+      {sortedRestaurants.map((restaurant: IDataRestaurant, i: number) => {
         return (
           <Restaurant
             key={restaurant.name + "_" + i}

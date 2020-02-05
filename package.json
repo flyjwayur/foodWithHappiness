@@ -6,13 +6,16 @@
   "scripts": {
     "dev": "parcel src/index.html",
     "format": "prettier \"src/**/*.{js, css}\" --write",
-    "lint": "eslint \"src/**/*.{js, jsx}\" --quiet",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "tslint --project",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "typecheck": "tsc --noEmit"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/react": "^16.9.19",
+    "@types/react-dom": "^16.9.5",
     "blurhash": "^1.1.3",
     "react": "^16.12.0",
     "react-blurhash": "^0.1.2",
@@ -20,14 +23,11 @@
     "react-dom": "^16.12.0"
   },
   "devDependencies": {
-    "babel-eslint": "^10.0.3",
-    "eslint": "^6.8.0",
-    "eslint-config-prettier": "^6.10.0",
-    "eslint-plugin-import": "^2.20.0",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.18.0",
-    "eslint-plugin-react-hooks": "^2.3.0",
     "parcel-bundler": "^1.12.4",
-    "prettier": "^1.19.1"
+    "prettier": "^1.19.1",
+    "tslint": "^6.0.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-react": "^4.2.0",
+    "typescript": "^3.7.5"
   }
 }
