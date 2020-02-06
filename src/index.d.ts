@@ -11,3 +11,11 @@ export interface IDataRestaurant {
   tags: string[]
 }
 
+interface IPropRestaurant {
+  name: string,
+  description: string,
+  delivery_price: number,
+  blurhash: string,
+  image: string,
+}
+
