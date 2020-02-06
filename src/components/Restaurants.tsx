@@ -31,15 +31,17 @@ const Restaurants: FunctionComponent = () => {
       >
         <span>Ascending/Descending order</span>
       </button>
-      {sortedRestaurants.map((restaurant: IDataRestaurant, i: number) => {
-        return (
-          <Restaurant
-            key={restaurant.name + "_" + i}
-            restaurant={restaurant}
-            isContentsLoading={isContentsLoading}
-          />
-        );
-      })}
+      <div data-testid="restaurants-list">
+        {sortedRestaurants.map((restaurant: IDataRestaurant, i: number) => {
+          return (
+            <Restaurant
+              key={restaurant.name + "_" + i}
+              restaurant={restaurant}
+              isContentsLoading={isContentsLoading}
+            />
+          );
+        })}
+      </div>
     </div>
   );
 };
