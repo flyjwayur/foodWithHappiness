@@ -1,19 +1,20 @@
 import { sortByName } from "../../util/sortArray";
 
-
-describe('sorting restaurants', () => {
+describe("sorting restaurants", () => {
   test("in ascending order", () => {
     expect(sortByName(testData, true)).toEqual(ascendingData);
   });
-  
+
   test("in descending order", () => {
     expect(sortByName(testData, false)).toEqual(descendingData);
   });
-  
+
   test("which has accented characters in ascending order", () => {
-    expect(sortByName(testDataWithAccentedCharacters , true)).toEqual(ascendingDataWithAccentedCharacters);
+    expect(sortByName(testDataWithAccentedCharacters, true)).toEqual(
+      ascendingDataWithAccentedCharacters
+    );
   });
-})
+});
 
 const dummyRestaurtant = {
   blurhash: "UUKJMXv|x]oz0gtRM{V@AHRQwvxZXSs9s;o0",
@@ -46,10 +47,10 @@ const testData = [
 ];
 
 const testDataWithAccentedCharacters = [
-  { ...dummyRestaurtant, name: "Sandro Cityk\u00e4yt\u00e4v\u00e4"},
+  { ...dummyRestaurtant, name: "Sandro Cityk\u00e4yt\u00e4v\u00e4" },
   {
     ...dummyRestaurtant,
-    name: "Fafa's Cityk\u00e4yt\u00e4v\u00e4",
+    name: "Fafa's Cityk\u00e4yt\u00e4v\u00e4"
   },
   {
     ...dummyRestaurtant,
@@ -64,7 +65,7 @@ const testDataWithAccentedCharacters = [
 const ascendingDataWithAccentedCharacters = [
   {
     ...dummyRestaurtant,
-    name: "Fafa's Cityk\u00e4yt\u00e4v\u00e4",
+    name: "Fafa's Cityk\u00e4yt\u00e4v\u00e4"
   },
   {
     ...dummyRestaurtant,
@@ -74,8 +75,8 @@ const ascendingDataWithAccentedCharacters = [
     ...dummyRestaurtant,
     name: "Luckiefun's Kaivokatu"
   },
-  { ...dummyRestaurtant, name: "Sandro Cityk\u00e4yt\u00e4v\u00e4"},
-]
+  { ...dummyRestaurtant, name: "Sandro Cityk\u00e4yt\u00e4v\u00e4" }
+];
 
 const ascendingData = [
   {
