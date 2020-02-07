@@ -6,5 +6,8 @@
     "no-console": false,
     "jsx-no-lambda": false,
     "member-ordering": false
+  },
+   "linterOptions": {
+    "exclude": ["**/*.d.ts", "**/__test__/**"]
   }
 }
