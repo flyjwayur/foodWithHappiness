@@ -1,47 +1,25 @@
-import React, { useState, useEffect, FunctionComponent } from "react";
-import data from "../data/restaurants.json";
-import { sortByName } from "../util/sortArray";
-import Restaurant from "./Restaurant";
-import { IDataRestaurant } from "../index.d"
+import React, { useState, FunctionComponent } from "react";
+import { IDataRestaurant, IPropRestaurant } from "../index.d"
+import Restaurant from './Restaurant';
 
+const Restaurants: FunctionComponent<{ restaurantsList: IDataRestaurant[], isContentsLoading: boolean }> =
+  ({ restaurantsList, isContentsLoading }) => {
 
-const Restaurants: FunctionComponent = () => {
-  const [isContentsLoading, setContentsLoading] = useState(true);
-  // Arrange restaurants in ascending order initially
-  const [ascend, setAscend] = useState(true);
-  const [sortedRestaurants, setSortedRestaurants] = useState(
-    sortByName(data.restaurants, ascend)
-  );
-
-  // Check a content loading status to display a skeleton screen as a placeholder when data is loading
-  useEffect(() => {
-    setContentsLoading(false);
-  }, [sortedRestaurants]);
-
-  return (
-    <div>
-      <button
-        onClick={() => {
-          const prevAscend = ascend;
-          setAscend(!prevAscend);
-          setSortedRestaurants((prevRestaurants: IDataRestaurant[]) =>
-            sortByName(prevRestaurants as IDataRestaurant[], !prevAscend)
+    return (
+      <div>
+        {restaurantsList.map((restaurant: IDataRestaurant, i: number) => {
+          const { name, description, delivery_price, blurhash, image } = restaurant;
+          const restaurantInfo = { name, description, delivery_price, blurhash, image }
+          return (
+            <Restaurant
+              key={restaurant.name + "_" + i}
+              restaurant={restaurantInfo}
+              isContentsLoading={isContentsLoading}
+            />
           );
-        }}
-      >
-        <span>Ascending/Descending order</span>
-      </button>
-      {sortedRestaurants.map((restaurant: IDataRestaurant, i: number) => {
-        return (
-          <Restaurant
-            key={restaurant.name + "_" + i}
-            restaurant={restaurant}
-            isContentsLoading={isContentsLoading}
-          />
-        );
-      })}
-    </div>
-  );
-};
+        })}
+      </div>
+    );
+  };
 
 export default Restaurants;

@@ -1,14 +1,7 @@
 import React, { useState, FunctionComponent } from "react";
 import { Blurhash } from "react-blurhash";
 import ContentsLoader from "./ContentsLoader";
-
-interface IPropRestaurant {
-  name: string,
-  description: string,
-  delivery_price: number,
-  blurhash: string,
-  image: string,
-}
+import {IPropRestaurant} from '../index.d'
 
 const Restaurant: FunctionComponent<{ restaurant: IPropRestaurant, isContentsLoading: boolean }> =
   ({ restaurant, isContentsLoading }) => {

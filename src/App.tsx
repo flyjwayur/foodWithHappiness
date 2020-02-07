@@ -1,5 +1,5 @@
 import React from "react";
-import Restaurants from "./Restaurants";
+import Restaurants from "./pages/RestaurantsPage";
 
 const App = () => {
   return (

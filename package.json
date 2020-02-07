@@ -5,26 +5,33 @@
   "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html",
-    "format": "prettier \"src/**/*.{js, css}\" --write",
-    "lint": "tslint --project",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "typecheck": "tsc --noEmit"
+    "format": "prettier \"src/**/*.{ts, tsx}\" --write",
+    "lint": "tslint -p tsconfig.json --config tslint.json",
+    "typecheck": "tsc --noEmit",
+    "test": "jest --coverage",
+    "test:watch": "jest --watch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@testing-library/jest-dom": "^5.1.1",
+    "@testing-library/react": "^9.4.0",
+    "@types/jest": "^25.1.1",
     "@types/react": "^16.9.19",
     "@types/react-dom": "^16.9.5",
     "blurhash": "^1.1.3",
     "react": "^16.12.0",
     "react-blurhash": "^0.1.2",
     "react-content-loader": "^5.0.1",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "ts-jest": "^25.2.0"
   },
   "devDependencies": {
+    "jest": "^25.1.0",
     "parcel-bundler": "^1.12.4",
     "prettier": "^1.19.1",
+    "react-testing-library": "^8.0.1",
     "tslint": "^6.0.0",
     "tslint-config-prettier": "^1.18.0",
     "tslint-react": "^4.2.0",
