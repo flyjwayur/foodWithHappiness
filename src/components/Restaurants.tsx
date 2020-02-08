@@ -1,5 +1,5 @@
-import React, { useState, FunctionComponent } from "react";
-import { IDataRestaurant, IPropRestaurant } from "../index.d"
+import React, { FunctionComponent } from "react";
+import { IDataRestaurant } from "../index.d"
 import Restaurant from './Restaurant';
 
 const Restaurants: FunctionComponent<{ restaurantsList: IDataRestaurant[], isContentsLoading: boolean }> =

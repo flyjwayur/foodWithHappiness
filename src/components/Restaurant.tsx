@@ -1,7 +1,7 @@
 import React, { useState, FunctionComponent } from "react";
 import { Blurhash } from "react-blurhash";
 import ContentsLoader from "./ContentsLoader";
-import {IPropRestaurant} from '../index.d'
+import { IPropRestaurant } from '../index.d'
 
 const Restaurant: FunctionComponent<{ restaurant: IPropRestaurant, isContentsLoading: boolean }> =
   ({ restaurant, isContentsLoading }) => {
