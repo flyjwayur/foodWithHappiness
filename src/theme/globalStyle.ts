@@ -5,10 +5,12 @@ export const bodyStyles = css`
   margin: 0;
   padding: 0;
   font-family: 'Karla', Roboto, Helvetica Neue, sans-serif;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 `;
 
 export const GlobalStyle = createGlobalStyle`
 body {
    ${bodyStyles}
 }`;
+
+export default GlobalStyle;

@@ -1,12 +1,13 @@
 import React from 'react';
 import RestaurantsPage from './pages/RestaurantsPage';
+import PageLayout from './components/PageLayout';
 
 const App = () => {
   return (
-    <div>
+    <PageLayout>
       <h1>Happy food delivery and great experience :D</h1>
       <RestaurantsPage />
-    </div>
+    </PageLayout>
   );
 };
 

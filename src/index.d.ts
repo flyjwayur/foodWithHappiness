@@ -17,4 +17,8 @@ interface IPropRestaurant {
   delivery_price: number;
   blurhash: string;
   image: string;
+  tags: string[];
+  online: boolean;
+  currency: string;
+  city: string;
 }
