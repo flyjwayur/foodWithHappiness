@@ -1,9 +1,8 @@
-import React, { useState, useEffect, FunctionComponent } from "react";
-import data from "../data/restaurants.json";
-import { sortByName, sortByName2 } from "../util/sortArray";
-import Restaurants from "../components/Restaurants"
-import { IDataRestaurant } from "../index.d"
-
+import React, { useState, useEffect, FunctionComponent } from 'react';
+import data from '../data/restaurants.json';
+import { sortByName, sortByName2 } from '../util/sortArray';
+import Restaurants from '../components/Restaurants';
+import { IDataRestaurant } from '../index.d';
 
 const RestaurantsPage: FunctionComponent = () => {
   const [isContentsLoading, setContentsLoading] = useState(true);
@@ -32,15 +31,14 @@ const RestaurantsPage: FunctionComponent = () => {
         <span>Ascending/Descending order</span>
       </button>
       <div data-testid="restaurants-list">
-        {sortedRestaurants.length ?
-          <Restaurants
-            restaurantsList={sortedRestaurants}
-            isContentsLoading={isContentsLoading} />
-          : "Restaurants info is not ready"}
+        {sortedRestaurants.length ? (
+          <Restaurants restaurantsList={sortedRestaurants} isContentsLoading={isContentsLoading} />
+        ) : (
+          'Restaurants info is not ready'
+        )}
       </div>
     </div>
   );
 };
 
 export default RestaurantsPage;
-

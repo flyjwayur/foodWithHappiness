@@ -1,13 +1,20 @@
 {
-  "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier"],
+  "extends": [
+    "tslint:recommended",
+    "tslint-react",
+    "tslint-eslint-rules",
+    "tslint-config-prettier"
+  ],
+  "rulesDirectory": ["tslint-plugin-prettier"],
   "rules": {
+    "prettier": true,
     "ordered-imports": false,
     "object-literal-sort-keys": false,
     "no-console": false,
     "jsx-no-lambda": false,
     "member-ordering": false
   },
-   "linterOptions": {
-    "exclude": ["**/*.d.ts", "**/__test__/**"]
+  "linterOptions": {
+    "exclude": ["**/*.d.ts", "**/__test__/**", "node_modules/**/*.ts", "coverage/lcov-report/*.js"]
   }
 }
