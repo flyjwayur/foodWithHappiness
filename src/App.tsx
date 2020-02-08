@@ -1,13 +1,12 @@
 import React from 'react';
 import RestaurantsPage from './pages/RestaurantsPage';
-import PageLayout from './components/PageLayout';
-
+import MainHeader from './components/MainHeader/MainHeader';
 const App = () => {
   return (
-    <PageLayout>
-      <h1>Happy food delivery and great experience :D</h1>
+    <div>
+      <MainHeader titleText="Looking for a good weekend meal?" descriptionText="Happy food delivery and great experience" />
       <RestaurantsPage />
-    </PageLayout>
+    </div>
   );
 };
 

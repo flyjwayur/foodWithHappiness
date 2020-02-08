@@ -1,10 +1,11 @@
 import React, { useState, FunctionComponent } from 'react';
 import { Blurhash } from 'react-blurhash';
-import ContentsLoader from './ContentsLoader';
-import { IPropRestaurant } from '../index.d';
+import ContentsLoader from '../ContentsLoader/ContentsLoader';
+import { IPropRestaurant } from '../../index.d';
 import styled from 'styled-components';
-import { mediaQuerySizes } from '../theme/mediaQuery';
-import theme from '../theme/theme';
+import { mediaQuerySizes } from '../../theme/mediaQuery';
+import theme from '../../theme/theme';
+import { formatCurrency } from '../../util/formatCurrency';
 
 const Card = styled.div`
   display: flex;
@@ -129,7 +130,7 @@ const Restaurant: FunctionComponent<{
             <CardTextDesc>{description}</CardTextDesc>
           </CardTextTop>
           <CardTextBottom>
-            <DeliveryPrice>{delivery_price} €</DeliveryPrice>
+            <DeliveryPrice>{formatCurrency(delivery_price)} €</DeliveryPrice>
             <Tags>
               {tags.map((tag, i) => (
                 <Tag key={tag + i}>{tag}</Tag>

@@ -1,7 +1,8 @@
 import React, { FunctionComponent } from 'react';
 import styled from 'styled-components';
-import { IDataRestaurant } from '../index.d';
-import Restaurant from './Restaurant';
+import { IDataRestaurant } from '../../index.d';
+import Restaurant from '../Restaurant/Restaurant';
+import { mediaQuerySizes } from '../../theme/mediaQuery';
 
 const VenueCardContainer = styled.div`
   display: flex;
@@ -15,11 +16,11 @@ const VenueCardContainer = styled.div`
     margin-bottom: 1rem;
   }
 
-  @media (max-width: 950px) {
+  @media (max-width: ${mediaQuerySizes.tabletPortrait}) {
     justify-content: center;
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: ${mediaQuerySizes.phone}) {
     > div {
       width: 100%;
     }

@@ -1,7 +1,7 @@
 import React, { FunctionComponent } from 'react';
 import styled from 'styled-components';
-import { spacing06 } from '../theme/variables';
-import { mediaQuerySizes } from '../theme/mediaQuery';
+import { spacing06 } from '../../theme/variables';
+import { mediaQuerySizes } from '../../theme/mediaQuery';
 
 const SectionWrapper = styled.div`
   padding: ${spacing06} 0;

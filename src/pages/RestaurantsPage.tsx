@@ -1,8 +1,10 @@
 import React, { useState, useEffect, FunctionComponent } from 'react';
 import data from '../data/restaurants.json';
-import { sortByName, sortByName2 } from '../util/sortArray';
-import Restaurants from '../components/Restaurants';
+import { sortByName } from '../util/sortArray';
+import Restaurants from '../components/Restaurants/Restaurants';
 import { IDataRestaurant } from '../index.d';
+import PageLayout from '../components/PageLayout/PageLayout';
+import Button from '../components/Button/Button';
 
 const RestaurantsPage: FunctionComponent = () => {
   const [isContentsLoading, setContentsLoading] = useState(true);
@@ -18,18 +20,17 @@ const RestaurantsPage: FunctionComponent = () => {
   }, [sortedRestaurants]);
 
   return (
-    <div>
-      <button
-        onClick={() => {
+    <PageLayout>
+      <Button
+        label="Ascending/Descending order"
+        onClickFn={() => {
           const prevAscend = ascend;
           setAscend(!prevAscend);
           setSortedRestaurants((prevRestaurants: IDataRestaurant[]) =>
             sortByName(prevRestaurants as IDataRestaurant[], !prevAscend)
           );
         }}
-      >
-        <span>Ascending/Descending order</span>
-      </button>
+      />
       <div data-testid="restaurants-list">
         {sortedRestaurants.length ? (
           <Restaurants restaurantsList={sortedRestaurants} isContentsLoading={isContentsLoading} />
@@ -37,7 +38,7 @@ const RestaurantsPage: FunctionComponent = () => {
           'Restaurants info is not ready'
         )}
       </div>
-    </div>
+    </PageLayout>
   );
 };
 
