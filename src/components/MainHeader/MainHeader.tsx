@@ -3,8 +3,6 @@ import styled from 'styled-components';
 import theme from '../../theme/theme';
 import { mediaQuerySizes } from '../../theme/mediaQuery';
 
-console.log('media', mediaQuerySizes);
-
 const MainHeaderContainer = styled.header`
   background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
   height: 30rem;
@@ -96,11 +94,6 @@ const Description = styled.div`
   @media (max-width: ${mediaQuerySizes.tabletPortrait}) {
     font-size: 1rem;
     line-height: 1.3rem;
-  }
-
-  @media (max-width: ${mediaQuerySizes.phone}) {
-    font-size: 0.8rem;
-    line-height: 1rem;
   }
 `;
 
