@@ -2,101 +2,146 @@ import React, { FunctionComponent } from 'react';
 import styled from 'styled-components';
 import theme from '../../theme/theme';
 import { mediaQuerySizes } from '../../theme/mediaQuery';
-import { spacing02 } from '../../theme/variables';
-// import mainHeaderImage from '../../assets/mainImage.png';
+
+console.log('media', mediaQuerySizes);
 
 const MainHeaderContainer = styled.header`
-  position: relative;
-  background: 80% 2% / cover no-repeat ${theme.primary};
-  max-width: 100%;
-  height: 50vh;
-  padding: ${spacing02} 0;
+  background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+  height: 30rem;
+  min-height: calc(50vh - 40px);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 2rem;
 
   @media (max-width: ${mediaQuerySizes.tabletLandscape}) {
-    height: 35vh;
+    height: 25rem;
+    min-height: calc(40vh - 40px);
+  }
+
+  @media (max-width: ${mediaQuerySizes.tabletPortrait}) {
+    height: 20rem;
+    min-height: calc(35vh - 40px);
   }
 
   @media (max-width: ${mediaQuerySizes.phone}) {
-    height: 30vh;
+    height: 18rem;
+    min-height: calc(30vh - 40px);
   }
 `;
 
-const HeaderPosition = styled.div`
-  position: absolute;
-  top: 50%;
-  left: 6%;
-  transform: translate(6%, -50%);
-  max-width: $spacing-40;
+const MainHeaderInnerContainer = styled.div`
+  max-width: 1200px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 0 2rem;
+`;
 
-  @media (max-width: ${mediaQuerySizes.tabletLandscape}) {
-    top: 65%;
-    left: 1%;
-  }
+const HeaderLeft = styled.div`
+  flex: 1 2 50%;
+  padding: 0 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+`;
 
-  @media (max-width: ${mediaQuerySizes.tabletPortrait}) {
-    top: 70%;
-    left: 6%;
-    transform: translateY(-60%);
-    max-width: 20rem;
-  }
-
-  @media (max-width: ${mediaQuerySizes.mobile}) {
-    top: 65%;
-    left: 6%;
-    transform: translateY(-60%);
-    max-width: 18.75rem;
-  }
+const HeaderText = styled.div`
+  display: flex;
+  flex-direction: column;
+  height: 8rem;
 `;
 
 const Title = styled.div`
-  color: ${theme.darkText};
-  font-size: 3.5rem;
+  font-size: 3rem;
+  line-height: 3.75rem;
+  font-weight: 900;
+  letter-spacing: -1px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  margin-bottom: 1.5rem;
 
   @media (max-width: ${mediaQuerySizes.tabletLandscape}) {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
+    line-height: 3.2rem;
   }
 
   @media (max-width: ${mediaQuerySizes.tabletPortrait}) {
-    font-size: 2rem;
+    font-size: 2.2rem;
+    line-height: 2.8rem;
   }
 
-  @media (max-width: ${mediaQuerySizes.mobile}) {
-    font-size: 1.8rem;
+  @media (max-width: ${mediaQuerySizes.phone}) {
+    font-size: 2rem;
+    line-height: 2.3rem;
   }
 `;
 
 const Description = styled.div`
-  color: ${theme.lightText};
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: ${theme.lightgreyText};
+  white-space: pre-wrap;
+  font-weight: 300;
+  font-style: oblique;
 
   @media (max-width: ${mediaQuerySizes.tabletLandscape}) {
-    font-size: 2.5rem;
-    line-height: 1.3rem;
+    font-size: 1.3rem;
+    line-height: 1.35rem;
   }
 
   @media (max-width: ${mediaQuerySizes.tabletPortrait}) {
-    font-size: 2rem;
+    font-size: 1rem;
     line-height: 1.3rem;
   }
 
-  @media (max-width: ${mediaQuerySizes.mobile}) {
-    font-size: 1.8rem;
+  @media (max-width: ${mediaQuerySizes.phone}) {
+    font-size: 0.8rem;
+    line-height: 1rem;
   }
 `;
 
-// const MainImage = styled.div`
-//    background-image: url("${mainHeaderImage}");
-// `;
+const HeaderRight = styled.div`
+  position: relative;
+  flex: 1 2 50%;
+  min-width: max-content;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 5px;
+
+  @media (max-width: ${mediaQuerySizes.phone}) {
+    display: none;
+  }
+`;
+
+const MainImage = styled.img`
+  position: absolute;
+  max-height: 100%;
+  width: 100%;
+  object-fit: cover;
+`;
 
 const MainHeader: FunctionComponent<{
   titleText: string;
   descriptionText: string;
-}> = ({ titleText, descriptionText }) => (
+  backgroundUrl: string;
+}> = ({ titleText, descriptionText, backgroundUrl }) => (
   <MainHeaderContainer title="Happy Food delivery">
-    <HeaderPosition>
-      <Title>{titleText}</Title>
-      <Description>{descriptionText}</Description>
-    </HeaderPosition>
-    {/* <MainImage /> */}
+    <MainHeaderInnerContainer>
+      <HeaderLeft>
+        <HeaderText>
+          <Title>{titleText}</Title>
+          <Description>{descriptionText}</Description>
+        </HeaderText>
+      </HeaderLeft>
+      <HeaderRight>
+        <MainImage src={backgroundUrl} alt="main header food image" />
+      </HeaderRight>
+    </MainHeaderInnerContainer>
   </MainHeaderContainer>
 );
 

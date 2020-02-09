@@ -22,3 +22,10 @@ interface IPropRestaurant {
   currency: string;
   city: string;
 }
+
+declare module '*.css' {
+  export default '' as string;
+}
+declare module '*.png' {
+  export default '' as string;
+}

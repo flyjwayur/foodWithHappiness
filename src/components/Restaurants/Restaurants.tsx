@@ -16,7 +16,7 @@ const VenueCardContainer = styled.div`
     margin-bottom: 1rem;
   }
 
-  @media (max-width: ${mediaQuerySizes.tabletPortrait}) {
+  @media (max-width: ${mediaQuerySizes.tabletLandscape}) {
     justify-content: center;
   }
 

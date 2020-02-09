@@ -20,6 +20,10 @@ const Card = styled.div`
     object-fit: cover;
   }
 
+  @media (max-width: ${mediaQuerySizes.tabletLandscape}) {
+    min-width: 25rem;
+  }
+
   @media (max-width: ${mediaQuerySizes.tabletPortrait}) {
     min-width: 20rem;
   }
@@ -27,6 +31,8 @@ const Card = styled.div`
 
 const RestaurantImage = styled.img`
   border-radius: 8px 8px 0 0;
+  width: 210px;
+  height: 158px;
 `;
 
 const CardTextTop = styled.div`
@@ -40,7 +46,7 @@ const CardTextTop = styled.div`
 const CardTextTitle = styled.div`
   font-weight: 500;
   font-size: 1.125rem;
-  color: ${theme.greyText};
+  color: ${theme.darkgreyText};
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
@@ -110,8 +116,8 @@ const Restaurant: FunctionComponent<{
           <Blurhash
             style={{ display: isImageLoading ? 'inline-block' : 'none' }}
             hash={blurhash}
-            width={400}
-            height={300}
+            width={210}
+            height={158}
             resolutionX={32}
             resolutionY={32}
             punch={1}
@@ -121,8 +127,6 @@ const Restaurant: FunctionComponent<{
             style={{ display: isImageLoading ? 'none' : 'inline-block' }}
             src={image}
             alt={name + '_image'}
-            width="400px"
-            height="300px"
             onLoad={() => setIsImageLoading(false)}
           />
           <CardTextTop>

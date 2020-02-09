@@ -2,11 +2,11 @@ import styled from 'styled-components';
 
 const layoutWidth = 1200;
 
-export const mediaQuerySizes: { [key: string]: number } = {
-  phone: 600,
-  tabletPortrait: 900,
-  tabletLandscape: 1200,
-  desktop: 1800
+export const mediaQuerySizes: { [key: string]: string } = {
+  phone: '600px',
+  tabletPortrait: '900px',
+  tabletLandscape: '1200px',
+  desktop: '1800px'
 };
 
 export const Center = styled.div`
@@ -14,15 +14,15 @@ export const Center = styled.div`
   margin-left: auto;
   margin-right: auto;
 
-  @media (max-width: ${mediaQuerySizes.tabletLandscape}px) {
+  @media (max-width: ${mediaQuerySizes.tabletLandscape}) {
+    width: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  @media (max-width: ${mediaQuerySizes.phone}) {
     width: auto;
     margin-left: 10px;
     margin-right: 10px;
-  }
-
-  @media (max-width: ${mediaQuerySizes.tabletPortrait}px) {
-    width: auto;
-    margin-left: 8px;
-    margin-right: 8px;
   }
 `;
