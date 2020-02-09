@@ -6,10 +6,7 @@ module.exports = {
     '^.+\\.js$': 'babel-jest'
   },
   transformIgnorePatterns: ['<rootDir>/node_modules/'],
-  setupFilesAfterEnv: [
-    '@testing-library/react/cleanup-after-each',
-    '@testing-library/jest-dom/extend-expect'
-  ], // Extended assertions when using React Testing Library
+  setupFilesAfterEnv: ['@testing-library/jest-dom/extend-expect'], // Extended assertions when using React Testing Library
   testRegex: '(/__tests__/.*|(\\.|/)(test|spec))\\.tsx?$', // Test folder/file pattern
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'] // module file extensions for importing
 };

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import BlurhashCanvas from '../BlurhashCanvas/BlurhasCanvas';
+import BlurhashCanvas from '../BlurhashCanvas/BlurhashCanvas';
 
 type Props = React.HTMLAttributes<HTMLDivElement> & {
   hash: string;
