@@ -37,6 +37,11 @@
 - Lint with ts-lint : `yarn run lint` or `yarn run lint:ts`
 - Type check with tslint-config-prettier-check : `yarn run tslint-check`
 
+### 3. Testing
+
+- Default test with jest : `yarn run test`
+- Test with jest watch more : `yarn run test:watch`
+
 ## Technologies which is used for the project
 
 "react", "typescript", "jest", "styled-components", "blurhash", "storybook", "ts-lint", "prettier"
@@ -56,3 +61,4 @@
 - Filter restaurants with online possibility
 - React Component test with Jest
 - Component driven development with Storybook
+  (Storybook needs to be configured more with TS)
