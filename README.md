@@ -49,7 +49,7 @@
 ## Considerations during implementations
 
 - Displaying/Sorting data clear
-- Coherent design token(color, layout, space and typography)
+- Coherent design token(color, layout, space and typography) with the Wolt design
 - Responsiveness to different screens
 - Static type checker and functionality test
 - Organized file structures
