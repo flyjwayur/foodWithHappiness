@@ -52,6 +52,7 @@ const RestaurantsPage: FunctionComponent = () => {
               sortByName(prevRestaurants as IDataRestaurant[], !prevAscend)
             );
           }}
+          ascending={ascend}
         />
       </CenterButton>
       <div data-testid="restaurants-list">
