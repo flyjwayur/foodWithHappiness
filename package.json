@@ -5,11 +5,15 @@
   "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html",
-    "format": "prettier \"src/**/*.{ts, tsx}\" --write",
+    "format": "prettier \"src/**/*.{ts, tsx, js, jsx}\" --write",
     "lint": "tslint -p tsconfig.json --config tslint.json",
+    "lint:ts": "tslint 'src/**/*.{ts,tsx,js}'",
+    "tslint-check": "tslint-config-prettier-check ./tslint.json",
     "typecheck": "tsc --noEmit",
     "test": "jest --coverage",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "keywords": [],
   "author": "",
@@ -20,21 +24,38 @@
     "@types/jest": "^25.1.1",
     "@types/react": "^16.9.19",
     "@types/react-dom": "^16.9.5",
+    "@types/styled-components": "^4.4.2",
     "blurhash": "^1.1.3",
     "react": "^16.12.0",
     "react-blurhash": "^0.1.2",
     "react-content-loader": "^5.0.1",
     "react-dom": "^16.12.0",
+    "styled-components": "^5.0.1",
     "ts-jest": "^25.2.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@storybook/addon-actions": "^5.3.12",
+    "@storybook/addon-info": "^5.3.12",
+    "@storybook/addon-links": "^5.3.12",
+    "@storybook/addon-storysource": "^5.3.12",
+    "@storybook/addons": "^5.3.12",
+    "@storybook/react": "^5.3.12",
+    "babel-loader": "^8.0.6",
     "jest": "^25.1.0",
     "parcel-bundler": "^1.12.4",
     "prettier": "^1.19.1",
+    "react-docgen-typescript-loader": "^3.6.0",
     "react-testing-library": "^8.0.1",
+    "ts-loader": "^6.2.1",
     "tslint": "^6.0.0",
     "tslint-config-prettier": "^1.18.0",
+    "tslint-eslint-rules": "^5.4.0",
+    "tslint-plugin-prettier": "^2.1.0",
     "tslint-react": "^4.2.0",
-    "typescript": "^3.7.5"
+    "typescript": "^3.7.5",
+    "typescript-styled-plugin": "^0.15.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
   }
 }

@@ -3,8 +3,9 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "target": "es5",
-    "lib": ["es5", "dom"],
+    "lib": ["es5", "es6", "es7", "es2017", "dom"],
     "declaration": true,
+    "rootDir": "src",
     "outDir": "./dist/",
     "sourceMap": true,
     "alwaysStrict": true,
@@ -14,7 +15,23 @@
     "jsx": "react",
     "typeRoots": ["node_modules/@types"],
     "types": ["jest"],
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "allowJs": false,
+    "rootDirs": ["src", "stories"],
+    "baseUrl": "src",
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "plugins": [
+      { "name": "typescript-tslint-plugin" },
+      { "name": "typescript-styled-plugin", "tags": ["styled", "css", "sty"] }
+    ]
   },
-  "include": ["src"]
+  "include": ["src"],
+  "exclude": ["node_modules"]
 }

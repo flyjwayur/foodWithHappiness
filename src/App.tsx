@@ -1,11 +1,11 @@
-import React from "react";
-import Restaurants from "./pages/RestaurantsPage";
+import React from 'react';
+import RestaurantsPage from './pages/RestaurantsPage';
 
 const App = () => {
   return (
+    // In the future, the router can be implemented for exploring different pages
     <div>
-      <h1>Happy food delivery and great experience :D</h1>
-      <Restaurants />
+      <RestaurantsPage />
     </div>
   );
 };
