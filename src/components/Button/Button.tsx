@@ -4,7 +4,8 @@ import styled from 'styled-components';
 import theme from '../../theme/theme';
 import { mediaQuerySizes } from '../../theme/mediaQuery';
 // @ts-ignore
-import sortIcon from '../../assets/sortIcon.png';
+import sortAscendIcon from '../../assets/sortAscendIcon.png';
+import sortDescendIcon from '../../assets/sortdescendIcon.png';
 
 const MainButton = styled.button`
   width: max-content;
@@ -47,10 +48,11 @@ const SortButtonIcon = styled.img`
 const Button: FunctionComponent<{
   label: string;
   onClickFn: () => void;
-}> = ({ label, onClickFn }) => {
+  ascending: boolean;
+}> = ({ label, onClickFn, ascending }) => {
   return (
     <MainButton onClick={onClickFn}>
-      <SortButtonIcon src={sortIcon} />
+      <SortButtonIcon src={ascending ? sortAscendIcon : sortDescendIcon} />
       {label}
     </MainButton>
   );
