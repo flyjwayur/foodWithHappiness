@@ -16,5 +16,3 @@ export const Emoji = () => (
     </span>
   </Button>
 );
-
-console.log('button story');

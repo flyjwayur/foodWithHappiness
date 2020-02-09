@@ -63,7 +63,7 @@ const CardTextDesc = styled.div`
 `;
 
 const CardTextBottom = styled.div`
-  border-top: 1px dashed #e4e4e4;
+  border-top: 1px dashed ${theme.linePrimaryColor};
   font-size: 12px;
   color: #868789;
   padding: 0.5rem 1rem;
@@ -121,7 +121,6 @@ const Restaurant: FunctionComponent<{
             resolutionX={32}
             resolutionY={32}
             punch={1}
-            onLoad={() => console.log('blurhash')}
           />
           <RestaurantImage
             style={{ display: isImageLoading ? 'none' : 'inline-block' }}
