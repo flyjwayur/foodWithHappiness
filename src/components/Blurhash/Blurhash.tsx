@@ -33,6 +33,14 @@ export default class Blurhash extends React.PureComponent<Props> {
   };
 
   componentDidUpdate() {
+    if (typeof this.props.resolutionX !== 'number') {
+      throw new Error('resolutionX must be number');
+    }
+
+    if (typeof this.props.resolutionY !== 'number') {
+      throw new Error('resolutionY must be number');
+    }
+
     if (this.props.resolutionX <= 0) {
       throw new Error('resolutionX must be larger than zero');
     }

@@ -5,6 +5,7 @@ import theme from '../../theme/theme';
 import { mediaQuerySizes } from '../../theme/mediaQuery';
 // @ts-ignore
 import sortAscendIcon from '../../assets/sortAscendIcon.png';
+// @ts-ignore
 import sortDescendIcon from '../../assets/sortdescendIcon.png';
 
 const MainButton = styled.button`

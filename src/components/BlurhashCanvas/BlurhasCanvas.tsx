@@ -14,25 +14,47 @@ export default class BlurhashCanvas extends React.PureComponent<Props> {
     width: 128
   };
 
-  canvas: HTMLCanvasElement = null;
+  canvas: HTMLCanvasElement | null = null;
 
   componentDidUpdate() {
     this.draw();
   }
 
   handleRef = (canvas: HTMLCanvasElement) => {
-    this.canvas = canvas;
-    this.draw();
+    try {
+      this.canvas = canvas;
+      if (!canvas) {
+        console.log('Canvas is null');
+        return;
+      }
+      const ctx = this.canvas.getContext('2d');
+      if (!ctx) {
+        console.log('Failed in getting context from ctx');
+        return;
+      }
+      this.draw();
+    } catch (error) {
+      console.log('error while handling ref');
+    }
   };
 
   draw = () => {
     const { hash, height, punch, width } = this.props;
 
+    const nullSafeWidth = width || 100;
+    const nullSafeHeight = height || 100;
+
     if (this.canvas) {
-      const pixels = decode(hash, width, height, punch);
+      const pixels = decode(hash, nullSafeWidth, nullSafeHeight, punch);
 
       const ctx = this.canvas.getContext('2d');
-      const imageData = ctx.createImageData(width, height);
+
+      if (!ctx) {
+        console.log('Failed in getting context from ctx');
+        return;
+      }
+
+      const imageData = ctx.createImageData(nullSafeWidth, nullSafeHeight);
       imageData.data.set(pixels);
       ctx.putImageData(imageData, 0, 0);
     }
