@@ -27,6 +27,11 @@ export default class BlurhashCanvas extends React.PureComponent<Props> {
         console.log('Canvas is null');
         return;
       }
+      if (!canvas.getContext) {
+        console.log('Canvas.getContext is null');
+        return;
+      }
+
       const ctx = this.canvas.getContext('2d');
       if (!ctx) {
         console.log('Failed in getting context from ctx');
