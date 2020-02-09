@@ -1,5 +1,5 @@
 import React, { useState, FunctionComponent } from 'react';
-import { Blurhash } from 'react-blurhash';
+import Blurhash from '../Blurhash/Blurhash';
 import ContentsLoader from '../ContentsLoader/ContentsLoader';
 import { IPropRestaurant } from '../../index.d';
 import styled from 'styled-components';
