@@ -4,7 +4,7 @@ import RestaurantsPage from './pages/RestaurantsPage';
 const App = () => {
   return (
     // In the future, the router can be implemented for exploring different pages
-    <div>
+    <div data-testid="app">
       <RestaurantsPage />
     </div>
   );
