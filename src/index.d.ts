@@ -18,9 +18,6 @@ interface IPropRestaurant {
   blurhash: string;
   image: string;
   tags: string[];
-  online: boolean;
-  currency: string;
-  city: string;
 }
 
 declare module '*.css' {

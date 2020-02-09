@@ -34,27 +34,14 @@ const Restaurants: FunctionComponent<{
   return (
     <VenueCardContainer>
       {restaurantsList.map((restaurant: IDataRestaurant, i: number) => {
-        const {
-          name,
-          description,
-          delivery_price,
-          blurhash,
-          image,
-          tags,
-          online,
-          currency,
-          city
-        } = restaurant;
+        const { name, description, delivery_price, blurhash, image, tags } = restaurant;
         const restaurantInfo = {
           name,
           description,
           delivery_price,
           blurhash,
           image,
-          tags,
-          online,
-          currency,
-          city
+          tags
         };
         return (
           <Restaurant

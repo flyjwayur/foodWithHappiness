@@ -85,7 +85,7 @@ const Tag = styled.span`
   text-align: center;
   font-size: 0.8rem;
   line-height: 1.3rem;
-  border-radius: 8px;
+  border-radius: 5px;
   padding: 0.3rem 0.5rem;
   margin: 0.3rem;
 `;
@@ -94,17 +94,7 @@ const Restaurant: FunctionComponent<{
   restaurant: IPropRestaurant;
   isContentsLoading: boolean;
 }> = ({ restaurant, isContentsLoading }) => {
-  const {
-    name,
-    description,
-    delivery_price,
-    blurhash,
-    image,
-    tags,
-    online,
-    currency,
-    city
-  } = restaurant;
+  const { name, description, delivery_price, blurhash, image, tags } = restaurant;
   const [isImageLoading, setIsImageLoading] = useState(true);
 
   return (
@@ -133,14 +123,12 @@ const Restaurant: FunctionComponent<{
             <CardTextDesc>{description}</CardTextDesc>
           </CardTextTop>
           <CardTextBottom>
-            <DeliveryPrice>{formatCurrency(delivery_price)} €</DeliveryPrice>
+            <DeliveryPrice> Delivery {formatCurrency(delivery_price)} €</DeliveryPrice>
             <Tags>
               {tags.map((tag, i) => (
                 <Tag key={tag + i}>{tag}</Tag>
               ))}
             </Tags>
-            {/* <span>{online}</span>
-            <span>{city}</span> */}
           </CardTextBottom>
         </Card>
       )}
