@@ -8,7 +8,7 @@
 
 ### 1. Requirements
 
-- Display all fifty restaurants with at least three fields in a restaurants json file.
+- Display all fifty restaurants with at least three fields in a Wolt restaurants json file.
 - Make a web page responsive to different screen
 - Sort restaurants alphabetically in ascending and descending order
 - [Bonus] Render the blurhash data
@@ -40,6 +40,15 @@
 ## Technologies which is used for the project
 
 "react", "typescript", "jest", "styled-components", "blurhash", "storybook", "ts-lint", "prettier"
+
+## Considerations during implementations
+
+- Displaying/Sorting data clear
+- Coherent design token(color, layout, space and typography)
+- Responsiveness to different screens
+- Static type checker and functionality test
+- Organized file structures
+- Comments about implementation reasons
 
 ## Feature ideas
 
