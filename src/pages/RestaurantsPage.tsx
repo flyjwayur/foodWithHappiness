@@ -34,6 +34,14 @@ const RestaurantsPage: FunctionComponent = () => {
     setContentsLoading(false);
   }, [sortedRestaurants]);
 
+  const handleSort = () => {
+    const prevAscend = ascend;
+    setAscend(!prevAscend);
+    setSortedRestaurants((prevRestaurants: IDataRestaurant[]) =>
+      sortByName(prevRestaurants as IDataRestaurant[], !prevAscend)
+    );
+  }
+
   return (
     <PageLayout>
       <MainHeader
@@ -45,13 +53,7 @@ const RestaurantsPage: FunctionComponent = () => {
       <CenterButton>
         <Button
           label="Sort Restaurants"
-          onClickFn={() => {
-            const prevAscend = ascend;
-            setAscend(!prevAscend);
-            setSortedRestaurants((prevRestaurants: IDataRestaurant[]) =>
-              sortByName(prevRestaurants as IDataRestaurant[], !prevAscend)
-            );
-          }}
+          onClickFn={() => handleSort()}
           ascending={ascend}
         />
       </CenterButton>

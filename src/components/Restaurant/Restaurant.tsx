@@ -25,7 +25,7 @@ const Card = styled.div`
   }
 
   @media (max-width: ${mediaQuerySizes.tabletPortrait}) {
-    min-width: 20rem;
+    min-width: 19rem;
   }
 `;
 
