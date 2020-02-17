@@ -7,12 +7,13 @@
     "dev": "parcel src/index.html",
     "prod": "parcel build src/index.html",
     "format": "prettier \"src/**/*.{ts, tsx, js, jsx}\" --write",
-    "lint": "tslint -p tsconfig.json --config tslint.json",
-    "lint:ts": "tslint 'src/**/*.{ts,tsx,js}'",
+    "lint": "tslint -p tsconfig.json --config tslint.json --fix",
+    "lint:ts": "tslint 'src/**/*.{ts,tsx,js}' --fix",
     "tslint-check": "tslint-config-prettier-check ./tslint.json",
     "typecheck": "tsc --noEmit",
     "test": "jest --coverage",
     "test:watch": "jest --watch",
+    "husky-test": "yarn run test",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
@@ -54,6 +55,7 @@
     "@storybook/addons": "^5.3.12",
     "@storybook/react": "^5.3.12",
     "babel-loader": "^8.0.6",
+    "husky": "^4.2.3",
     "jest": "^25.1.0",
     "jest-transform-stub": "^2.0.0",
     "parcel-bundler": "^1.12.4",
@@ -70,5 +72,17 @@
     "typescript-styled-plugin": "^0.15.0",
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-push": "yarn run husky-test"
+    }
+  },
+  "lint-staged": {
+    "*.tsx": [
+      "yarn run lint:ts",
+      "yarn run format"
+    ]
   }
 }

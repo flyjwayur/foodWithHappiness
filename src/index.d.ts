@@ -11,18 +11,11 @@ export interface IDataRestaurant {
   tags: string[];
 }
 
-interface IPropRestaurant {
+export interface IPropRestaurant {
   name: string;
   description: string;
   delivery_price: number;
   blurhash: string;
   image: string;
   tags: string[];
-}
-
-declare module '*.css' {
-  export default '' as string;
-}
-declare module '*.png' {
-  export default '' as string;
 }

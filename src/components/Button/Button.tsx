@@ -1,4 +1,3 @@
-/// <reference path='../../index.d.ts'/>
 import React, { FunctionComponent } from 'react';
 import styled from 'styled-components';
 import theme from '../../theme/theme';
