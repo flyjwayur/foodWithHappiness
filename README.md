@@ -43,6 +43,7 @@
 
 - Default test with jest : `yarn run test`
 - Test with jest watch more : `yarn run test:watch`
+- Update a snapshot test: `yarn run test:watch` + `u` key
 
 ## Technologies which is used for the project
 
