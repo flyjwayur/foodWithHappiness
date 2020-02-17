@@ -40,7 +40,7 @@ const RestaurantsPage: FunctionComponent = () => {
     setSortedRestaurants((prevRestaurants: IDataRestaurant[]) =>
       sortByName(prevRestaurants as IDataRestaurant[], !prevAscend)
     );
-  }
+  };
 
   return (
     <PageLayout>
@@ -51,11 +51,7 @@ const RestaurantsPage: FunctionComponent = () => {
       />
       <SubHeader titleText="Discover Helsinki" />
       <CenterButton>
-        <Button
-          label="Sort Restaurants"
-          onClickFn={() => handleSort()}
-          ascending={ascend}
-        />
+        <Button label="Sort Restaurants" onClickFn={() => handleSort()} ascending={ascend} />
       </CenterButton>
       <div data-testid="restaurants-list">
         {sortedRestaurants.length ? (
