@@ -1,4 +1,4 @@
-import { sortByName } from '../../util/sortArray';
+import { sortByName } from './sortArray';
 import cases from 'jest-in-case';
 
 describe('sorting restaurants', () => {

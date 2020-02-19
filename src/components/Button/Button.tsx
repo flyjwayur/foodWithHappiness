@@ -51,7 +51,7 @@ const Button: FunctionComponent<{
   ascending: boolean;
 }> = ({ label, onClickFn, ascending }) => {
   return (
-    <MainButton onClick={onClickFn}>
+    <MainButton data-testid="sort-button" onClick={onClickFn}>
       <SortButtonIcon src={ascending ? sortAscendIcon : sortDescendIcon} />
       {label}
     </MainButton>

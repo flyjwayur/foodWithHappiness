@@ -1,7 +1,7 @@
 module.exports = {
   roots: ['<rootDir>/src'], // The root of the source code, a token Jest substitutes
   transform: {
-    '^.+\\.tsx?$': 'ts-jest', // Jest transformations, adds support for TS, using ts=jest
+    '^.+\\.tsx?$': 'ts-jest', // Jest transformations, adds support for TS, using ts-jest
     '.+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$': 'jest-transform-stub',
     '^.+\\.js$': 'babel-jest'
   },

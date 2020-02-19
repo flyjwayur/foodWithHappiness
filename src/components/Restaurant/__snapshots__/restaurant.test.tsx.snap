@@ -1,0 +1,164 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Restaurant /> Display restaurant info 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-height: 20rem;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px 0px #aaa;
+}
+
+.c0 > img {
+  width: 100%;
+  height: 12rem;
+  object-fit: cover;
+}
+
+.c1 {
+  border-radius: 8px 8px 0 0;
+  width: 210px;
+  height: 158px;
+}
+
+.c2 {
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-width: 0;
+  padding: 0.875rem 1rem;
+  padding-bottom: 1rem;
+  background-color: #eff1f3;
+}
+
+.c3 {
+  font-weight: 500;
+  font-size: 1.125rem;
+  color: #3c3d40;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.c4 {
+  font-weight: 400;
+  font-size: 1rem;
+  color: #868780;
+  margin-top: 2px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.c5 {
+  border-top: 1px dashed #e4e4e4;
+  font-size: 12px;
+  color: #868789;
+  padding: 0.5rem 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c6 {
+  font-size: 0.8rem;
+  line-height: 1.3rem;
+}
+
+.c7 {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  background-color: #009de0;
+  color: #ffffff;
+  text-align: center;
+  font-size: 0.8rem;
+  line-height: 1.3rem;
+  border-radius: 5px;
+  padding: 0.3rem 0.5rem;
+  margin: 0.3rem;
+}
+
+@media (max-width:1200px) {
+  .c0 {
+    min-width: 25rem;
+  }
+}
+
+@media (max-width:900px) {
+  .c0 {
+    min-width: 19rem;
+  }
+}
+
+<div
+  class="c0"
+  data-testid="restaurant"
+>
+  <div
+    style="display: inline-block; height: 158px; width: 210px; position: relative;"
+  >
+    <canvas
+      height="32"
+      punch="1"
+      style="position: absolute; top: 0px; bottom: 0px; left: 0px; right: 0px; width: 100%; height: 100%;"
+      width="32"
+    />
+  </div>
+  <img
+    alt="Social Burgerjoint Citycenter_image"
+    class="c1"
+    src="https://prod-wolt-venue-images-cdn.wolt.com/5b348b31fe8992000bbec771/2be8c7738b220df2f9a0974da5c90d90"
+    style="display: none;"
+  />
+  <div
+    class="c2"
+  >
+    <div
+      class="c3"
+    >
+      Social Burgerjoint Citycenter
+    </div>
+    <div
+      class="c4"
+    >
+      Asenneburgeri
+    </div>
+  </div>
+  <div
+    class="c5"
+  >
+    <span
+      class="c6"
+    >
+       Delivery 
+      3.90
+       €
+    </span>
+    <div
+      class=""
+    >
+      <span
+        class="c7"
+      >
+        hamburger
+      </span>
+      <span
+        class="c7"
+      >
+        fries
+      </span>
+    </div>
+  </div>
+</div>
+`;

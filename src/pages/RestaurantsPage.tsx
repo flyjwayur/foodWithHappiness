@@ -50,7 +50,7 @@ const RestaurantsPage: FunctionComponent = () => {
       <CenterButton>
         <Button label="Sort Restaurants" onClickFn={() => handleSort()} ascending={ascend} />
       </CenterButton>
-      <div data-testid="restaurants-list">
+      <div>
         {sortedRestaurants.length ? (
           <Restaurants restaurantsList={sortedRestaurants} isContentsLoading={isContentsLoading} />
         ) : (

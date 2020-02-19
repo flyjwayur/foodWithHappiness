@@ -32,7 +32,7 @@ const Restaurants: FunctionComponent<{
   isContentsLoading: boolean;
 }> = ({ restaurantsList, isContentsLoading }) => {
   return (
-    <VenueCardContainer>
+    <VenueCardContainer data-testid="restaurant-list">
       {restaurantsList.map((restaurant: IDataRestaurant, i: number) => {
         const { name, description, delivery_price, blurhash, image, tags } = restaurant;
         const restaurantInfo = {

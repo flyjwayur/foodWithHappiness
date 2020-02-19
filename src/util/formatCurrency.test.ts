@@ -1,4 +1,4 @@
-import { formatCurrency } from '../../util/formatCurrency';
+import { formatCurrency } from './formatCurrency';
 import cases from 'jest-in-case';
 
 describe('formating the currency', () => {
