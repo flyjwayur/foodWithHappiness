@@ -1,4 +1,3 @@
-/// <reference path='../../index.d.ts'/>
 import React, { FunctionComponent } from 'react';
 import styled from 'styled-components';
 import theme from '../../theme/theme';
@@ -52,7 +51,7 @@ const Button: FunctionComponent<{
   ascending: boolean;
 }> = ({ label, onClickFn, ascending }) => {
   return (
-    <MainButton onClick={onClickFn}>
+    <MainButton data-testid="sort-button" onClick={onClickFn}>
       <SortButtonIcon src={ascending ? sortAscendIcon : sortDescendIcon} />
       {label}
     </MainButton>

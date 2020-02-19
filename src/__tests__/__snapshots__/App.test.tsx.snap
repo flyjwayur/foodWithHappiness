@@ -57,6 +57,7 @@ exports[`<App /> App snapshot is not broken 1`] = `
     >
       <button
         class="sc-fzpans iNQWQD"
+        data-testid="sort-button"
       >
         <img
           class="sc-fzplWN jYDeff"
@@ -65,14 +66,14 @@ exports[`<App /> App snapshot is not broken 1`] = `
         Sort Restaurants
       </button>
     </div>
-    <div
-      data-testid="restaurants-list"
-    >
+    <div>
       <div
         class="sc-fzoLsD lmAwna"
+        data-testid="restaurant-list"
       >
         <div
-          class="sc-AxirZ hiYudo"
+          class="sc-AxirZ hbyGnC"
+          data-testid="restaurant"
         >
           <div
             style="display: inline-block; height: 158px; width: 210px; position: relative;"
@@ -131,7 +132,8 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hiYudo"
+          class="sc-AxirZ hbyGnC"
+          data-testid="restaurant"
         >
           <div
             style="display: inline-block; height: 158px; width: 210px; position: relative;"
@@ -190,7 +192,8 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hiYudo"
+          class="sc-AxirZ hbyGnC"
+          data-testid="restaurant"
         >
           <div
             style="display: inline-block; height: 158px; width: 210px; position: relative;"
@@ -249,7 +252,8 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hiYudo"
+          class="sc-AxirZ hbyGnC"
+          data-testid="restaurant"
         >
           <div
             style="display: inline-block; height: 158px; width: 210px; position: relative;"
@@ -308,7 +312,8 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hiYudo"
+          class="sc-AxirZ hbyGnC"
+          data-testid="restaurant"
         >
           <div
             style="display: inline-block; height: 158px; width: 210px; position: relative;"
@@ -367,7 +372,8 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hiYudo"
+          class="sc-AxirZ hbyGnC"
+          data-testid="restaurant"
         >
           <div
             style="display: inline-block; height: 158px; width: 210px; position: relative;"
@@ -426,7 +432,8 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hiYudo"
+          class="sc-AxirZ hbyGnC"
+          data-testid="restaurant"
         >
           <div
             style="display: inline-block; height: 158px; width: 210px; position: relative;"
@@ -485,7 +492,8 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hiYudo"
+          class="sc-AxirZ hbyGnC"
+          data-testid="restaurant"
         >
           <div
             style="display: inline-block; height: 158px; width: 210px; position: relative;"
@@ -544,7 +552,8 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hiYudo"
+          class="sc-AxirZ hbyGnC"
+          data-testid="restaurant"
         >
           <div
             style="display: inline-block; height: 158px; width: 210px; position: relative;"
@@ -603,7 +612,8 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hiYudo"
+          class="sc-AxirZ hbyGnC"
+          data-testid="restaurant"
         >
           <div
             style="display: inline-block; height: 158px; width: 210px; position: relative;"
@@ -662,7 +672,8 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hiYudo"
+          class="sc-AxirZ hbyGnC"
+          data-testid="restaurant"
         >
           <div
             style="display: inline-block; height: 158px; width: 210px; position: relative;"
@@ -721,7 +732,8 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hiYudo"
+          class="sc-AxirZ hbyGnC"
+          data-testid="restaurant"
         >
           <div
             style="display: inline-block; height: 158px; width: 210px; position: relative;"
@@ -780,7 +792,8 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hiYudo"
+          class="sc-AxirZ hbyGnC"
+          data-testid="restaurant"
         >
           <div
             style="display: inline-block; height: 158px; width: 210px; position: relative;"
@@ -839,7 +852,8 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hiYudo"
+          class="sc-AxirZ hbyGnC"
+          data-testid="restaurant"
         >
           <div
             style="display: inline-block; height: 158px; width: 210px; position: relative;"
@@ -898,7 +912,8 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hiYudo"
+          class="sc-AxirZ hbyGnC"
+          data-testid="restaurant"
         >
           <div
             style="display: inline-block; height: 158px; width: 210px; position: relative;"
@@ -957,7 +972,8 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hiYudo"
+          class="sc-AxirZ hbyGnC"
+          data-testid="restaurant"
         >
           <div
             style="display: inline-block; height: 158px; width: 210px; position: relative;"
@@ -1016,7 +1032,8 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hiYudo"
+          class="sc-AxirZ hbyGnC"
+          data-testid="restaurant"
         >
           <div
             style="display: inline-block; height: 158px; width: 210px; position: relative;"
@@ -1075,7 +1092,8 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hiYudo"
+          class="sc-AxirZ hbyGnC"
+          data-testid="restaurant"
         >
           <div
             style="display: inline-block; height: 158px; width: 210px; position: relative;"
@@ -1134,7 +1152,8 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hiYudo"
+          class="sc-AxirZ hbyGnC"
+          data-testid="restaurant"
         >
           <div
             style="display: inline-block; height: 158px; width: 210px; position: relative;"
@@ -1193,7 +1212,8 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hiYudo"
+          class="sc-AxirZ hbyGnC"
+          data-testid="restaurant"
         >
           <div
             style="display: inline-block; height: 158px; width: 210px; position: relative;"
@@ -1252,7 +1272,8 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hiYudo"
+          class="sc-AxirZ hbyGnC"
+          data-testid="restaurant"
         >
           <div
             style="display: inline-block; height: 158px; width: 210px; position: relative;"
@@ -1311,7 +1332,8 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hiYudo"
+          class="sc-AxirZ hbyGnC"
+          data-testid="restaurant"
         >
           <div
             style="display: inline-block; height: 158px; width: 210px; position: relative;"
@@ -1370,7 +1392,8 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hiYudo"
+          class="sc-AxirZ hbyGnC"
+          data-testid="restaurant"
         >
           <div
             style="display: inline-block; height: 158px; width: 210px; position: relative;"
@@ -1429,7 +1452,8 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hiYudo"
+          class="sc-AxirZ hbyGnC"
+          data-testid="restaurant"
         >
           <div
             style="display: inline-block; height: 158px; width: 210px; position: relative;"
@@ -1488,7 +1512,8 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hiYudo"
+          class="sc-AxirZ hbyGnC"
+          data-testid="restaurant"
         >
           <div
             style="display: inline-block; height: 158px; width: 210px; position: relative;"
@@ -1547,7 +1572,8 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hiYudo"
+          class="sc-AxirZ hbyGnC"
+          data-testid="restaurant"
         >
           <div
             style="display: inline-block; height: 158px; width: 210px; position: relative;"
@@ -1606,7 +1632,8 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hiYudo"
+          class="sc-AxirZ hbyGnC"
+          data-testid="restaurant"
         >
           <div
             style="display: inline-block; height: 158px; width: 210px; position: relative;"
@@ -1665,7 +1692,8 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hiYudo"
+          class="sc-AxirZ hbyGnC"
+          data-testid="restaurant"
         >
           <div
             style="display: inline-block; height: 158px; width: 210px; position: relative;"
@@ -1724,7 +1752,8 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hiYudo"
+          class="sc-AxirZ hbyGnC"
+          data-testid="restaurant"
         >
           <div
             style="display: inline-block; height: 158px; width: 210px; position: relative;"
@@ -1783,7 +1812,8 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hiYudo"
+          class="sc-AxirZ hbyGnC"
+          data-testid="restaurant"
         >
           <div
             style="display: inline-block; height: 158px; width: 210px; position: relative;"
@@ -1842,7 +1872,8 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hiYudo"
+          class="sc-AxirZ hbyGnC"
+          data-testid="restaurant"
         >
           <div
             style="display: inline-block; height: 158px; width: 210px; position: relative;"
@@ -1901,7 +1932,8 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hiYudo"
+          class="sc-AxirZ hbyGnC"
+          data-testid="restaurant"
         >
           <div
             style="display: inline-block; height: 158px; width: 210px; position: relative;"
@@ -1960,7 +1992,8 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hiYudo"
+          class="sc-AxirZ hbyGnC"
+          data-testid="restaurant"
         >
           <div
             style="display: inline-block; height: 158px; width: 210px; position: relative;"
@@ -2019,7 +2052,8 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hiYudo"
+          class="sc-AxirZ hbyGnC"
+          data-testid="restaurant"
         >
           <div
             style="display: inline-block; height: 158px; width: 210px; position: relative;"
@@ -2078,7 +2112,8 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hiYudo"
+          class="sc-AxirZ hbyGnC"
+          data-testid="restaurant"
         >
           <div
             style="display: inline-block; height: 158px; width: 210px; position: relative;"
@@ -2137,7 +2172,8 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hiYudo"
+          class="sc-AxirZ hbyGnC"
+          data-testid="restaurant"
         >
           <div
             style="display: inline-block; height: 158px; width: 210px; position: relative;"
@@ -2196,7 +2232,8 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hiYudo"
+          class="sc-AxirZ hbyGnC"
+          data-testid="restaurant"
         >
           <div
             style="display: inline-block; height: 158px; width: 210px; position: relative;"
@@ -2244,7 +2281,8 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hiYudo"
+          class="sc-AxirZ hbyGnC"
+          data-testid="restaurant"
         >
           <div
             style="display: inline-block; height: 158px; width: 210px; position: relative;"
@@ -2303,7 +2341,8 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hiYudo"
+          class="sc-AxirZ hbyGnC"
+          data-testid="restaurant"
         >
           <div
             style="display: inline-block; height: 158px; width: 210px; position: relative;"
@@ -2362,7 +2401,8 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hiYudo"
+          class="sc-AxirZ hbyGnC"
+          data-testid="restaurant"
         >
           <div
             style="display: inline-block; height: 158px; width: 210px; position: relative;"
@@ -2421,7 +2461,8 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hiYudo"
+          class="sc-AxirZ hbyGnC"
+          data-testid="restaurant"
         >
           <div
             style="display: inline-block; height: 158px; width: 210px; position: relative;"
@@ -2480,7 +2521,8 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hiYudo"
+          class="sc-AxirZ hbyGnC"
+          data-testid="restaurant"
         >
           <div
             style="display: inline-block; height: 158px; width: 210px; position: relative;"
@@ -2539,7 +2581,8 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hiYudo"
+          class="sc-AxirZ hbyGnC"
+          data-testid="restaurant"
         >
           <div
             style="display: inline-block; height: 158px; width: 210px; position: relative;"
@@ -2598,7 +2641,8 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hiYudo"
+          class="sc-AxirZ hbyGnC"
+          data-testid="restaurant"
         >
           <div
             style="display: inline-block; height: 158px; width: 210px; position: relative;"
@@ -2657,7 +2701,8 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hiYudo"
+          class="sc-AxirZ hbyGnC"
+          data-testid="restaurant"
         >
           <div
             style="display: inline-block; height: 158px; width: 210px; position: relative;"
@@ -2716,7 +2761,8 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hiYudo"
+          class="sc-AxirZ hbyGnC"
+          data-testid="restaurant"
         >
           <div
             style="display: inline-block; height: 158px; width: 210px; position: relative;"
@@ -2775,7 +2821,8 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hiYudo"
+          class="sc-AxirZ hbyGnC"
+          data-testid="restaurant"
         >
           <div
             style="display: inline-block; height: 158px; width: 210px; position: relative;"
@@ -2834,7 +2881,8 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hiYudo"
+          class="sc-AxirZ hbyGnC"
+          data-testid="restaurant"
         >
           <div
             style="display: inline-block; height: 158px; width: 210px; position: relative;"
@@ -2893,7 +2941,8 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hiYudo"
+          class="sc-AxirZ hbyGnC"
+          data-testid="restaurant"
         >
           <div
             style="display: inline-block; height: 158px; width: 210px; position: relative;"
@@ -2952,7 +3001,8 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hiYudo"
+          class="sc-AxirZ hbyGnC"
+          data-testid="restaurant"
         >
           <div
             style="display: inline-block; height: 158px; width: 210px; position: relative;"

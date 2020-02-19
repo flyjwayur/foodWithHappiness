@@ -102,7 +102,7 @@ const Restaurant: FunctionComponent<{
       {isContentsLoading ? (
         <ContentsLoader />
       ) : (
-        <Card>
+        <Card data-testid="restaurant">
           <Blurhash
             style={{ display: isImageLoading ? 'inline-block' : 'none' }}
             hash={blurhash}

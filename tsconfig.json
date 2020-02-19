@@ -1,32 +1,39 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
-    "moduleResolution": "node",
+    /* Basic Options */
     "target": "es5",
+    "module": "commonjs",
     "lib": ["es5", "es6", "es7", "es2017", "dom"],
-    "declaration": true,
+    "moduleResolution": "node",
+    "allowJs": false,
+    "declaration": true /* Generates corresponding '.d.ts' file. */,
+    "jsx": "react",
+    "sourceMap": true /* Generates corresponding '.map' file. */,
     "rootDir": "src",
     "outDir": "./dist/",
-    "sourceMap": true,
-    "alwaysStrict": true,
-    "noImplicitAny": true,
-    "allowSyntheticDefaultImports": true,
     "skipLibCheck": true, // Skip type checking of all declaration files
-    "jsx": "react",
-    "typeRoots": ["node_modules/@types"],
-    "types": ["jest"],
     "resolveJsonModule": true,
-    "esModuleInterop": true,
-    "allowJs": false,
-    "rootDirs": ["src", "stories"],
-    "baseUrl": "src",
-    "forceConsistentCasingInFileNames": true,
-    "noImplicitThis": true,
-    "strictNullChecks": true,
-    "suppressImplicitAnyIndexErrors": true,
+    "baseUrl": "src", //Base directory to resolve non-absolute module names.
+
+    /* Strict Type-Checking Options */
+    "noImplicitAny": true,
+    "alwaysStrict": true /* Parse in strict mode and emit "use strict" for each source file. */,
+    "noImplicitThis": true /* Raise error on 'this' expressions with an implied 'any' type. */,
+    "strictNullChecks": true /* Enable strict null checks. */,
+    "strictFunctionTypes": true /* Enable strict checking of function types. */,
+
+    /* Additional Checks */
     "noUnusedLocals": true,
-    "experimentalDecorators": true,
-    "emitDecoratorMetadata": true,
+    "noUnusedParameters": true,
+
+    /* Module Resolution Options */
+    "esModuleInterop": true /* Enables emit interoperability between CommonJS and ES Modules via creation of namespace objects for all imports. Implies 'allowSyntheticDefaultImports'. */,
+    "allowSyntheticDefaultImports": true, ///* Allow default imports from modules with no default export. This does not affect code emit, just typechecking. */
+
+    /* Advanced Options */
+    "forceConsistentCasingInFileNames": true,
+
+    //* Plugins */
     "plugins": [
       { "name": "typescript-tslint-plugin" },
       { "name": "typescript-styled-plugin", "tags": ["styled", "css", "sty"] }
