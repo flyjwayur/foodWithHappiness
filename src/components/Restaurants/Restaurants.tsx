@@ -34,19 +34,10 @@ const Restaurants: FunctionComponent<{
   return (
     <VenueCardContainer data-testid="restaurant-list">
       {restaurantsList.map((restaurant: IDataRestaurant, i: number) => {
-        const { name, description, delivery_price, blurhash, image, tags } = restaurant;
-        const restaurantInfo = {
-          name,
-          description,
-          delivery_price,
-          blurhash,
-          image,
-          tags
-        };
         return (
           <Restaurant
             key={restaurant.name + '_' + i}
-            restaurant={restaurantInfo}
+            restaurant={restaurant}
             isContentsLoading={isContentsLoading}
           />
         );
