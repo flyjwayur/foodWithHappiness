@@ -18,6 +18,16 @@ const VenueCardContainer = styled.div`
 
   @media (max-width: ${mediaQuerySizes.tabletLandscape}) {
     justify-content: center;
+    > div {
+      width: calc(30% - 1.065rem);
+    }
+  }
+
+  @media (max-width: ${mediaQuerySizes.tabletPortrait}) {
+    justify-content: center;
+    > div {
+      width: calc(28% - 1.065rem);
+    }
   }
 
   @media (max-width: ${mediaQuerySizes.phone}) {

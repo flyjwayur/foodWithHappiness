@@ -6,6 +6,8 @@ import styled from 'styled-components';
 import { mediaQuerySizes } from '../../theme/mediaQuery';
 import theme from '../../theme/theme';
 import { formatCurrency } from '../../util/formatCurrency';
+// @ts-ignore
+import deliveryIcon from '../../assets/deliveryIcon.png';
 
 const Card = styled.div`
   display: flex;
@@ -21,11 +23,15 @@ const Card = styled.div`
   }
 
   @media (max-width: ${mediaQuerySizes.tabletLandscape}) {
-    min-width: 25rem;
+    min-width: 16rem;
   }
 
   @media (max-width: ${mediaQuerySizes.tabletPortrait}) {
-    min-width: 19rem;
+    min-width: 15rem;
+  }
+
+  @media (max-width: ${mediaQuerySizes.phone}) {
+    min-width: 14rem;
   }
 `;
 
@@ -49,6 +55,10 @@ const CardTextTitle = styled.div`
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
+
+  @media (max-width: ${mediaQuerySizes.tabletPortrait}) {
+    font-size: 1rem;
+  }
 `;
 
 const CardTextDesc = styled.div`
@@ -59,21 +69,39 @@ const CardTextDesc = styled.div`
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
+
+  @media (max-width: ${mediaQuerySizes.tabletPortrait}) {
+    font-size: 0.95rem;
+  }
 `;
 
 const CardTextBottom = styled.div`
   border-top: 1px dashed ${theme.linePrimaryColor};
-  font-size: 12px;
-  color: #868789;
+  font-size: 1rem;
+  color: ${theme.lightgreyText};
   padding: 0.5rem 1rem;
   display: flex;
   justify-content: space-between;
+
+  @media (max-width: ${mediaQuerySizes.tabletPortrait}) {
+    font-size: 0.95rem;
+  }
 `;
 
-const DeliveryPrice = styled.span`
-  font-size: 0.8rem;
-  line-height: 1.3rem;
+const Delivery = styled.div`
+  font-size: 0.73rem;
+  line-height: 0.9rem;
+  display: flex;
+  align-items: center;
 `;
+
+const DeliveryIcon = styled.img`
+  width: 0.9rem;
+  height: 0.9rem;
+  padding-right: 0.3rem;
+`;
+
+const DeliveryPrice = styled.span``;
 
 const Tags = styled.div``;
 
@@ -87,6 +115,11 @@ const Tag = styled.span`
   border-radius: 5px;
   padding: 0.3rem 0.5rem;
   margin: 0.3rem;
+
+  @media (max-width: ${mediaQuerySizes.tabletPortrait}) {
+    padding: 0.3rem;
+    margin: 0.1rem;
+  }
 `;
 
 const Restaurant: FunctionComponent<{
@@ -122,11 +155,12 @@ const Restaurant: FunctionComponent<{
             <CardTextDesc>{description}</CardTextDesc>
           </CardTextTop>
           <CardTextBottom>
-            <DeliveryPrice> Delivery {formatCurrency(delivery_price)} €</DeliveryPrice>
+            <Delivery>
+              <DeliveryIcon src={deliveryIcon} alt="delivery icon" />
+              <DeliveryPrice>{formatCurrency(delivery_price)} €</DeliveryPrice>
+            </Delivery>
             <Tags>
-              {tags.map((tag, i) => (
-                <Tag key={tag + i}>{tag}</Tag>
-              ))}
+              {tags.map((tag, i) => (tag.length < 14 ? <Tag key={tag + i}>{tag}</Tag> : null))}
             </Tags>
           </CardTextBottom>
         </Card>

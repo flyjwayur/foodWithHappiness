@@ -56,7 +56,7 @@ exports[`<Restaurant /> Display restaurant info 1`] = `
 
 .c5 {
   border-top: 1px dashed #e4e4e4;
-  font-size: 12px;
+  font-size: 1rem;
   color: #868789;
   padding: 0.5rem 1rem;
   display: -webkit-box;
@@ -70,11 +70,25 @@ exports[`<Restaurant /> Display restaurant info 1`] = `
 }
 
 .c6 {
-  font-size: 0.8rem;
-  line-height: 1.3rem;
+  font-size: 0.73rem;
+  line-height: 0.9rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .c7 {
+  width: 0.9rem;
+  height: 0.9rem;
+  padding-right: 0.3rem;
+}
+
+.c8 {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
@@ -90,13 +104,44 @@ exports[`<Restaurant /> Display restaurant info 1`] = `
 
 @media (max-width:1200px) {
   .c0 {
-    min-width: 25rem;
+    min-width: 16rem;
   }
 }
 
 @media (max-width:900px) {
   .c0 {
-    min-width: 19rem;
+    min-width: 15rem;
+  }
+}
+
+@media (max-width:600px) {
+  .c0 {
+    min-width: 14rem;
+  }
+}
+
+@media (max-width:900px) {
+  .c3 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width:900px) {
+  .c4 {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width:900px) {
+  .c5 {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width:900px) {
+  .c8 {
+    padding: 0.3rem;
+    margin: 0.1rem;
   }
 }
 
@@ -137,23 +182,31 @@ exports[`<Restaurant /> Display restaurant info 1`] = `
   <div
     class="c5"
   >
-    <span
+    <div
       class="c6"
     >
-       Delivery 
-      3.90
-       €
-    </span>
+      <img
+        alt="delivery icon"
+        class="c7"
+        src=""
+      />
+      <span
+        class=""
+      >
+        3.90
+         €
+      </span>
+    </div>
     <div
       class=""
     >
       <span
-        class="c7"
+        class="c8"
       >
         hamburger
       </span>
       <span
-        class="c7"
+        class="c8"
       >
         fries
       </span>
