@@ -1,10 +1,15 @@
 {
   "name": "food-with-happiness",
   "version": "1.0.0",
-  "description": "",
+  "description": "A restaurant web page with displaying and sorting data",
+  "engines": {
+    "node": ">=13.8.0",
+    "npm": ">=6.13.7",
+    "yarn": ">=1.22.0"
+  },
   "main": "index.js",
   "scripts": {
-    "dev": "parcel src/index.html",
+    "start": "parcel src/index.html",
     "prod": "parcel build src/index.html",
     "format": "prettier \"src/**/*.{ts, tsx, js, jsx}\" --write",
     "lint": "tslint -p tsconfig.json --config tslint.json --fix",
