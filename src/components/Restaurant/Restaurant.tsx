@@ -31,8 +31,7 @@ const Card = styled.div`
 
 const RestaurantImage = styled.img`
   border-radius: 8px 8px 0 0;
-  width: 210px;
-  height: 158px;
+  width: 100%;
 `;
 
 const CardTextTop = styled.div`
@@ -106,8 +105,8 @@ const Restaurant: FunctionComponent<{
           <Blurhash
             style={{ display: isImageLoading ? 'inline-block' : 'none' }}
             hash={blurhash}
-            width={210}
-            height={158}
+            width="100%"
+            height="100%"
             resolutionX={32}
             resolutionY={32}
             punch={1}

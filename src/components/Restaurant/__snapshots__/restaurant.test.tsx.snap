@@ -22,8 +22,7 @@ exports[`<Restaurant /> Display restaurant info 1`] = `
 
 .c1 {
   border-radius: 8px 8px 0 0;
-  width: 210px;
-  height: 158px;
+  width: 100%;
 }
 
 .c2 {
@@ -106,7 +105,7 @@ exports[`<Restaurant /> Display restaurant info 1`] = `
   data-testid="restaurant"
 >
   <div
-    style="display: inline-block; height: 158px; width: 210px; position: relative;"
+    style="display: inline-block; height: 100%; width: 100%; position: relative;"
   >
     <canvas
       height="32"
