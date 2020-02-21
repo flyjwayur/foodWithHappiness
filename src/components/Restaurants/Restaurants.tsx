@@ -18,6 +18,16 @@ const VenueCardContainer = styled.div`
 
   @media (max-width: ${mediaQuerySizes.tabletLandscape}) {
     justify-content: center;
+    > div {
+      width: calc(30% - 1.065rem);
+    }
+  }
+
+  @media (max-width: ${mediaQuerySizes.tabletPortrait}) {
+    justify-content: center;
+    > div {
+      width: calc(28% - 1.065rem);
+    }
   }
 
   @media (max-width: ${mediaQuerySizes.phone}) {
@@ -34,19 +44,10 @@ const Restaurants: FunctionComponent<{
   return (
     <VenueCardContainer data-testid="restaurant-list">
       {restaurantsList.map((restaurant: IDataRestaurant, i: number) => {
-        const { name, description, delivery_price, blurhash, image, tags } = restaurant;
-        const restaurantInfo = {
-          name,
-          description,
-          delivery_price,
-          blurhash,
-          image,
-          tags
-        };
         return (
           <Restaurant
             key={restaurant.name + '_' + i}
-            restaurant={restaurantInfo}
+            restaurant={restaurant}
             isContentsLoading={isContentsLoading}
           />
         );

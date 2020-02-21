@@ -5,62 +5,62 @@ exports[`<App /> App snapshot is not broken 1`] = `
   data-testid="app"
 >
   <div
-    class="sc-AxjAm cjszfE"
+    class="sc-AxjAm euyyvv"
   >
     <header
-      class="sc-fznyAO jBhkDv"
+      class="sc-fznZeY exZzNS"
       title="Happy Food delivery"
     >
       <div
-        class="sc-fznKkj jicYTg"
+        class="sc-fzokOt BHjMP"
       >
         <div
-          class="sc-fznZeY kTFUcO"
+          class="sc-fzqBZW dslSbs"
         >
           <div
-            class="sc-fzokOt UmfV"
+            class="sc-fzqNJr dzWSJp"
           >
             <div
-              class="sc-fzqBZW kYZkKs"
+              class="sc-fzoyAV bpyawL"
             >
               Looking for a good weekend meal?
             </div>
             <div
-              class="sc-fzqNJr dBVfsZ"
+              class="sc-fzoLag kKHIAb"
             >
               Happy food delivery and great experience
             </div>
           </div>
         </div>
         <div
-          class="sc-fzoyAV eLzJZv"
+          class="sc-fzoXzr dGPdAh"
         >
           <img
             alt="main header food image"
-            class="sc-fzoLag KLpkJ"
+            class="sc-fzpjYC dTAnww"
             src=""
           />
         </div>
       </div>
     </header>
     <div
-      class="sc-fzoXzr jrrecU"
+      class="sc-fznxsB exPFqE"
     >
       <h3
-        class="sc-fzpjYC eCKese"
+        class="sc-fznJRM cMJeWx"
       >
         Discover Helsinki
       </h3>
     </div>
     <div
-      class="sc-fznxsB cDttkW"
+      class="sc-fznWqX hAtMht"
     >
       <button
-        class="sc-fzpans iNQWQD"
+        class="sc-fznyAO dLHKvm"
         data-testid="sort-button"
       >
         <img
-          class="sc-fzplWN jYDeff"
+          class="sc-fznKkj gPDDNS"
           src=""
         />
         Sort Restaurants
@@ -68,15 +68,15 @@ exports[`<App /> App snapshot is not broken 1`] = `
     </div>
     <div>
       <div
-        class="sc-fzoLsD lmAwna"
+        class="sc-fzplWN iWOLSO"
         data-testid="restaurant-list"
       >
         <div
-          class="sc-AxirZ hbyGnC"
+          class="sc-AxirZ kwveBS"
           data-testid="restaurant"
         >
           <div
-            style="display: inline-block; height: 158px; width: 210px; position: relative;"
+            style="display: inline-block; height: 100%; width: 100%; position: relative;"
           >
             <canvas
               height="32"
@@ -87,7 +87,7 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
           <img
             alt="Arnolds Forum_image"
-            class="sc-AxiKw gJLiA"
+            class="sc-AxiKw ZcBNP"
             src="https://prod-wolt-venue-images-cdn.wolt.com/56288e4b13ca203c6efb07fd/0cf7bea0ede96a9c017d966155d17995"
             style="display: none;"
           />
@@ -95,36 +95,44 @@ exports[`<App /> App snapshot is not broken 1`] = `
             class="sc-AxhCb kNIUKJ"
           >
             <div
-              class="sc-AxhUy jZSYEE"
+              class="sc-AxhUy dxsYJB"
             >
               Arnolds Forum
             </div>
             <div
-              class="sc-AxgMl CORwf"
+              class="sc-AxgMl fFFxIt"
             >
               Amerikkalaistyylinen kahvila
             </div>
           </div>
           <div
-            class="sc-AxheI iXcNiZ"
+            class="sc-AxheI fSuTGP"
           >
-            <span
-              class="sc-Axmtr gbpUmn"
-            >
-               Delivery 
-              3.90
-               €
-            </span>
             <div
-              class="sc-AxmLO cAKCgh"
+              class="sc-Axmtr daOfpU"
+            >
+              <img
+                alt="delivery icon"
+                class="sc-AxmLO iywtMK"
+                src=""
+              />
+              <span
+                class="sc-fzozJi jxgYyc"
+              >
+                3.90
+                 €
+              </span>
+            </div>
+            <div
+              class="sc-fzoLsD fqEnxe"
             >
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 café
               </span>
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 smoothie
               </span>
@@ -132,11 +140,11 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hbyGnC"
+          class="sc-AxirZ kwveBS"
           data-testid="restaurant"
         >
           <div
-            style="display: inline-block; height: 158px; width: 210px; position: relative;"
+            style="display: inline-block; height: 100%; width: 100%; position: relative;"
           >
             <canvas
               height="32"
@@ -147,7 +155,7 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
           <img
             alt="Base Camp Yliopistonkatu_image"
-            class="sc-AxiKw gJLiA"
+            class="sc-AxiKw ZcBNP"
             src="https://prod-wolt-venue-images-cdn.wolt.com/55fa75f1c04ebe1d044c6799/564f79a2f7727050a01a7916382c33b6"
             style="display: none;"
           />
@@ -155,36 +163,44 @@ exports[`<App /> App snapshot is not broken 1`] = `
             class="sc-AxhCb kNIUKJ"
           >
             <div
-              class="sc-AxhUy jZSYEE"
+              class="sc-AxhUy dxsYJB"
             >
               Base Camp Yliopistonkatu
             </div>
             <div
-              class="sc-AxgMl CORwf"
+              class="sc-AxgMl fFFxIt"
             >
               Aitoa nepalilaista ruokaa
             </div>
           </div>
           <div
-            class="sc-AxheI iXcNiZ"
+            class="sc-AxheI fSuTGP"
           >
-            <span
-              class="sc-Axmtr gbpUmn"
-            >
-               Delivery 
-              3.90
-               €
-            </span>
             <div
-              class="sc-AxmLO cAKCgh"
+              class="sc-Axmtr daOfpU"
+            >
+              <img
+                alt="delivery icon"
+                class="sc-AxmLO iywtMK"
+                src=""
+              />
+              <span
+                class="sc-fzozJi jxgYyc"
+              >
+                3.90
+                 €
+              </span>
+            </div>
+            <div
+              class="sc-fzoLsD fqEnxe"
             >
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 nepalese
               </span>
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 spicy
               </span>
@@ -192,11 +208,11 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hbyGnC"
+          class="sc-AxirZ kwveBS"
           data-testid="restaurant"
         >
           <div
-            style="display: inline-block; height: 158px; width: 210px; position: relative;"
+            style="display: inline-block; height: 100%; width: 100%; position: relative;"
           >
             <canvas
               height="32"
@@ -207,7 +223,7 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
           <img
             alt="Biáng! Citycenter_image"
-            class="sc-AxiKw gJLiA"
+            class="sc-AxiKw ZcBNP"
             src="https://prod-wolt-venue-images-cdn.wolt.com/5cfa497902b535ee1c620fca/2c451d88fe96dc04d228dc4cd3dd23a5"
             style="display: none;"
           />
@@ -215,36 +231,44 @@ exports[`<App /> App snapshot is not broken 1`] = `
             class="sc-AxhCb kNIUKJ"
           >
             <div
-              class="sc-AxhUy jZSYEE"
+              class="sc-AxhUy dxsYJB"
             >
               Biáng! Citycenter
             </div>
             <div
-              class="sc-AxgMl CORwf"
+              class="sc-AxgMl fFFxIt"
             >
               Viihtyisä kiinalainen ravintola
             </div>
           </div>
           <div
-            class="sc-AxheI iXcNiZ"
+            class="sc-AxheI fSuTGP"
           >
-            <span
-              class="sc-Axmtr gbpUmn"
-            >
-               Delivery 
-              3.90
-               €
-            </span>
             <div
-              class="sc-AxmLO cAKCgh"
+              class="sc-Axmtr daOfpU"
+            >
+              <img
+                alt="delivery icon"
+                class="sc-AxmLO iywtMK"
+                src=""
+              />
+              <span
+                class="sc-fzozJi jxgYyc"
+              >
+                3.90
+                 €
+              </span>
+            </div>
+            <div
+              class="sc-fzoLsD fqEnxe"
             >
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 chinese
               </span>
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 asian
               </span>
@@ -252,11 +276,11 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hbyGnC"
+          class="sc-AxirZ kwveBS"
           data-testid="restaurant"
         >
           <div
-            style="display: inline-block; height: 158px; width: 210px; position: relative;"
+            style="display: inline-block; height: 100%; width: 100%; position: relative;"
           >
             <canvas
               height="32"
@@ -267,7 +291,7 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
           <img
             alt="Burger King Mannerheimintie_image"
-            class="sc-AxiKw gJLiA"
+            class="sc-AxiKw ZcBNP"
             src="https://prod-wolt-venue-images-cdn.wolt.com/5a43b26f47f236000d931ef8/17f135df32054eea1867cc4a5425c7a5"
             style="display: none;"
           />
@@ -275,36 +299,44 @@ exports[`<App /> App snapshot is not broken 1`] = `
             class="sc-AxhCb kNIUKJ"
           >
             <div
-              class="sc-AxhUy jZSYEE"
+              class="sc-AxhUy dxsYJB"
             >
               Burger King Mannerheimintie
             </div>
             <div
-              class="sc-AxgMl CORwf"
+              class="sc-AxgMl fFFxIt"
             >
               Liekillä grillatut hampurilaiset
             </div>
           </div>
           <div
-            class="sc-AxheI iXcNiZ"
+            class="sc-AxheI fSuTGP"
           >
-            <span
-              class="sc-Axmtr gbpUmn"
-            >
-               Delivery 
-              3.90
-               €
-            </span>
             <div
-              class="sc-AxmLO cAKCgh"
+              class="sc-Axmtr daOfpU"
+            >
+              <img
+                alt="delivery icon"
+                class="sc-AxmLO iywtMK"
+                src=""
+              />
+              <span
+                class="sc-fzozJi jxgYyc"
+              >
+                3.90
+                 €
+              </span>
+            </div>
+            <div
+              class="sc-fzoLsD fqEnxe"
             >
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 hamburger
               </span>
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 chicken
               </span>
@@ -312,11 +344,11 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hbyGnC"
+          class="sc-AxirZ kwveBS"
           data-testid="restaurant"
         >
           <div
-            style="display: inline-block; height: 158px; width: 210px; position: relative;"
+            style="display: inline-block; height: 100%; width: 100%; position: relative;"
           >
             <canvas
               height="32"
@@ -327,7 +359,7 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
           <img
             alt="Classic Pizza Restaurant Forum_image"
-            class="sc-AxiKw gJLiA"
+            class="sc-AxiKw ZcBNP"
             src="https://prod-wolt-venue-images-cdn.wolt.com/5c7e85ce3456b6000e4ca16d/f4bc5e4563deed45240f43e1858e3eb3"
             style="display: none;"
           />
@@ -335,36 +367,44 @@ exports[`<App /> App snapshot is not broken 1`] = `
             class="sc-AxhCb kNIUKJ"
           >
             <div
-              class="sc-AxhUy jZSYEE"
+              class="sc-AxhUy dxsYJB"
             >
               Classic Pizza Restaurant Forum
             </div>
             <div
-              class="sc-AxgMl CORwf"
+              class="sc-AxgMl fFFxIt"
             >
               Herkullisia premium-pizzoja
             </div>
           </div>
           <div
-            class="sc-AxheI iXcNiZ"
+            class="sc-AxheI fSuTGP"
           >
-            <span
-              class="sc-Axmtr gbpUmn"
-            >
-               Delivery 
-              3.90
-               €
-            </span>
             <div
-              class="sc-AxmLO cAKCgh"
+              class="sc-Axmtr daOfpU"
+            >
+              <img
+                alt="delivery icon"
+                class="sc-AxmLO iywtMK"
+                src=""
+              />
+              <span
+                class="sc-fzozJi jxgYyc"
+              >
+                3.90
+                 €
+              </span>
+            </div>
+            <div
+              class="sc-fzoLsD fqEnxe"
             >
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 pizza
               </span>
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 premium
               </span>
@@ -372,11 +412,11 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hbyGnC"
+          class="sc-AxirZ kwveBS"
           data-testid="restaurant"
         >
           <div
-            style="display: inline-block; height: 158px; width: 210px; position: relative;"
+            style="display: inline-block; height: 100%; width: 100%; position: relative;"
           >
             <canvas
               height="32"
@@ -387,7 +427,7 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
           <img
             alt="Classic Pizza Restaurant Stockmann_image"
-            class="sc-AxiKw gJLiA"
+            class="sc-AxiKw ZcBNP"
             src="https://prod-wolt-venue-images-cdn.wolt.com/5cd14ade4bac6f478a5380bf/fb1274eac7797ef590b25adb5b2c37ff"
             style="display: none;"
           />
@@ -395,36 +435,44 @@ exports[`<App /> App snapshot is not broken 1`] = `
             class="sc-AxhCb kNIUKJ"
           >
             <div
-              class="sc-AxhUy jZSYEE"
+              class="sc-AxhUy dxsYJB"
             >
               Classic Pizza Restaurant Stockmann
             </div>
             <div
-              class="sc-AxgMl CORwf"
+              class="sc-AxgMl fFFxIt"
             >
               Herkullisia premium-pizzoja
             </div>
           </div>
           <div
-            class="sc-AxheI iXcNiZ"
+            class="sc-AxheI fSuTGP"
           >
-            <span
-              class="sc-Axmtr gbpUmn"
-            >
-               Delivery 
-              3.90
-               €
-            </span>
             <div
-              class="sc-AxmLO cAKCgh"
+              class="sc-Axmtr daOfpU"
+            >
+              <img
+                alt="delivery icon"
+                class="sc-AxmLO iywtMK"
+                src=""
+              />
+              <span
+                class="sc-fzozJi jxgYyc"
+              >
+                3.90
+                 €
+              </span>
+            </div>
+            <div
+              class="sc-fzoLsD fqEnxe"
             >
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 pizza
               </span>
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 premium
               </span>
@@ -432,11 +480,11 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hbyGnC"
+          class="sc-AxirZ kwveBS"
           data-testid="restaurant"
         >
           <div
-            style="display: inline-block; height: 158px; width: 210px; position: relative;"
+            style="display: inline-block; height: 100%; width: 100%; position: relative;"
           >
             <canvas
               height="32"
@@ -447,7 +495,7 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
           <img
             alt="Döner Harju City_image"
-            class="sc-AxiKw gJLiA"
+            class="sc-AxiKw ZcBNP"
             src="https://prod-wolt-venue-images-cdn.wolt.com/5abcf2d270aae6000deacff0/9c21840f97e01f5c293eae0993b4faa2"
             style="display: none;"
           />
@@ -455,36 +503,44 @@ exports[`<App /> App snapshot is not broken 1`] = `
             class="sc-AxhCb kNIUKJ"
           >
             <div
-              class="sc-AxhUy jZSYEE"
+              class="sc-AxhUy dxsYJB"
             >
               Döner Harju City
             </div>
             <div
-              class="sc-AxgMl CORwf"
+              class="sc-AxgMl fFFxIt"
             >
               Modernia gourmet-kebabia 
             </div>
           </div>
           <div
-            class="sc-AxheI iXcNiZ"
+            class="sc-AxheI fSuTGP"
           >
-            <span
-              class="sc-Axmtr gbpUmn"
-            >
-               Delivery 
-              3.90
-               €
-            </span>
             <div
-              class="sc-AxmLO cAKCgh"
+              class="sc-Axmtr daOfpU"
+            >
+              <img
+                alt="delivery icon"
+                class="sc-AxmLO iywtMK"
+                src=""
+              />
+              <span
+                class="sc-fzozJi jxgYyc"
+              >
+                3.90
+                 €
+              </span>
+            </div>
+            <div
+              class="sc-fzoLsD fqEnxe"
             >
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 kebab
               </span>
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 döner
               </span>
@@ -492,11 +548,11 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hbyGnC"
+          class="sc-AxirZ kwveBS"
           data-testid="restaurant"
         >
           <div
-            style="display: inline-block; height: 158px; width: 210px; position: relative;"
+            style="display: inline-block; height: 100%; width: 100%; position: relative;"
           >
             <canvas
               height="32"
@@ -507,7 +563,7 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
           <img
             alt="Eat Poke HKI_image"
-            class="sc-AxiKw gJLiA"
+            class="sc-AxiKw ZcBNP"
             src="https://prod-wolt-venue-images-cdn.wolt.com/589ca97e51559a1ce5a61f13/8d1518569b7ce3ba72036c24b361a2cd"
             style="display: none;"
           />
@@ -515,36 +571,44 @@ exports[`<App /> App snapshot is not broken 1`] = `
             class="sc-AxhCb kNIUKJ"
           >
             <div
-              class="sc-AxhUy jZSYEE"
+              class="sc-AxhUy dxsYJB"
             >
               Eat Poke HKI
             </div>
             <div
-              class="sc-AxgMl CORwf"
+              class="sc-AxgMl fFFxIt"
             >
               Helsingin ensimmäinen kokonaan poke-kulhoille omistettu ravintola
             </div>
           </div>
           <div
-            class="sc-AxheI iXcNiZ"
+            class="sc-AxheI fSuTGP"
           >
-            <span
-              class="sc-Axmtr gbpUmn"
-            >
-               Delivery 
-              3.90
-               €
-            </span>
             <div
-              class="sc-AxmLO cAKCgh"
+              class="sc-Axmtr daOfpU"
+            >
+              <img
+                alt="delivery icon"
+                class="sc-AxmLO iywtMK"
+                src=""
+              />
+              <span
+                class="sc-fzozJi jxgYyc"
+              >
+                3.90
+                 €
+              </span>
+            </div>
+            <div
+              class="sc-fzoLsD fqEnxe"
             >
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 bowl
               </span>
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 american
               </span>
@@ -552,11 +616,11 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hbyGnC"
+          class="sc-AxirZ kwveBS"
           data-testid="restaurant"
         >
           <div
-            style="display: inline-block; height: 158px; width: 210px; position: relative;"
+            style="display: inline-block; height: 100%; width: 100%; position: relative;"
           >
             <canvas
               height="32"
@@ -567,7 +631,7 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
           <img
             alt="Elmo Sport Bistro_image"
-            class="sc-AxiKw gJLiA"
+            class="sc-AxiKw ZcBNP"
             src="https://prod-wolt-venue-images-cdn.wolt.com/592c1c3d02d61d597578fcb0/4239ff30a6e5c964b33ca9ec6b65aef5"
             style="display: none;"
           />
@@ -575,36 +639,44 @@ exports[`<App /> App snapshot is not broken 1`] = `
             class="sc-AxhCb kNIUKJ"
           >
             <div
-              class="sc-AxhUy jZSYEE"
+              class="sc-AxhUy dxsYJB"
             >
               Elmo Sport Bistro
             </div>
             <div
-              class="sc-AxgMl CORwf"
+              class="sc-AxgMl fFFxIt"
             >
               Tunnelmallinen bistro
             </div>
           </div>
           <div
-            class="sc-AxheI iXcNiZ"
+            class="sc-AxheI fSuTGP"
           >
-            <span
-              class="sc-Axmtr gbpUmn"
-            >
-               Delivery 
-              3.90
-               €
-            </span>
             <div
-              class="sc-AxmLO cAKCgh"
+              class="sc-Axmtr daOfpU"
+            >
+              <img
+                alt="delivery icon"
+                class="sc-AxmLO iywtMK"
+                src=""
+              />
+              <span
+                class="sc-fzozJi jxgYyc"
+              >
+                3.90
+                 €
+              </span>
+            </div>
+            <div
+              class="sc-fzoLsD fqEnxe"
             >
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 salad
               </span>
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 pizza
               </span>
@@ -612,11 +684,11 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hbyGnC"
+          class="sc-AxirZ kwveBS"
           data-testid="restaurant"
         >
           <div
-            style="display: inline-block; height: 158px; width: 210px; position: relative;"
+            style="display: inline-block; height: 100%; width: 100%; position: relative;"
           >
             <canvas
               height="32"
@@ -627,7 +699,7 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
           <img
             alt="Fafa's Citykäytävä_image"
-            class="sc-AxiKw gJLiA"
+            class="sc-AxiKw ZcBNP"
             src="https://prod-wolt-venue-images-cdn.wolt.com/5996b207ac09660afae98373/7680cf2cffae35b7302e3a91b65ce8f5"
             style="display: none;"
           />
@@ -635,36 +707,44 @@ exports[`<App /> App snapshot is not broken 1`] = `
             class="sc-AxhCb kNIUKJ"
           >
             <div
-              class="sc-AxhUy jZSYEE"
+              class="sc-AxhUy dxsYJB"
             >
               Fafa's Citykäytävä
             </div>
             <div
-              class="sc-AxgMl CORwf"
+              class="sc-AxgMl fFFxIt"
             >
               Herkulliset pitaleivät ja falafelit
             </div>
           </div>
           <div
-            class="sc-AxheI iXcNiZ"
+            class="sc-AxheI fSuTGP"
           >
-            <span
-              class="sc-Axmtr gbpUmn"
-            >
-               Delivery 
-              3.90
-               €
-            </span>
             <div
-              class="sc-AxmLO cAKCgh"
+              class="sc-Axmtr daOfpU"
+            >
+              <img
+                alt="delivery icon"
+                class="sc-AxmLO iywtMK"
+                src=""
+              />
+              <span
+                class="sc-fzozJi jxgYyc"
+              >
+                3.90
+                 €
+              </span>
+            </div>
+            <div
+              class="sc-fzoLsD fqEnxe"
             >
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 pita
               </span>
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 falafel
               </span>
@@ -672,11 +752,11 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hbyGnC"
+          class="sc-AxirZ kwveBS"
           data-testid="restaurant"
         >
           <div
-            style="display: inline-block; height: 158px; width: 210px; position: relative;"
+            style="display: inline-block; height: 100%; width: 100%; position: relative;"
           >
             <canvas
               height="32"
@@ -687,7 +767,7 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
           <img
             alt="Fafa's Mikonkatu_image"
-            class="sc-AxiKw gJLiA"
+            class="sc-AxiKw ZcBNP"
             src="https://prod-wolt-venue-images-cdn.wolt.com/57026b075382793337a5d810/fa4af1398029dcf8510267b3d8381fda"
             style="display: none;"
           />
@@ -695,36 +775,44 @@ exports[`<App /> App snapshot is not broken 1`] = `
             class="sc-AxhCb kNIUKJ"
           >
             <div
-              class="sc-AxhUy jZSYEE"
+              class="sc-AxhUy dxsYJB"
             >
               Fafa's Mikonkatu
             </div>
             <div
-              class="sc-AxgMl CORwf"
+              class="sc-AxgMl fFFxIt"
             >
               Herkulliset pitaleivät ja falafelit
             </div>
           </div>
           <div
-            class="sc-AxheI iXcNiZ"
+            class="sc-AxheI fSuTGP"
           >
-            <span
-              class="sc-Axmtr gbpUmn"
-            >
-               Delivery 
-              3.90
-               €
-            </span>
             <div
-              class="sc-AxmLO cAKCgh"
+              class="sc-Axmtr daOfpU"
+            >
+              <img
+                alt="delivery icon"
+                class="sc-AxmLO iywtMK"
+                src=""
+              />
+              <span
+                class="sc-fzozJi jxgYyc"
+              >
+                3.90
+                 €
+              </span>
+            </div>
+            <div
+              class="sc-fzoLsD fqEnxe"
             >
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 pita
               </span>
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 falafel
               </span>
@@ -732,11 +820,11 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hbyGnC"
+          class="sc-AxirZ kwveBS"
           data-testid="restaurant"
         >
           <div
-            style="display: inline-block; height: 158px; width: 210px; position: relative;"
+            style="display: inline-block; height: 100%; width: 100%; position: relative;"
           >
             <canvas
               height="32"
@@ -747,7 +835,7 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
           <img
             alt="Fafa's Sokos_image"
-            class="sc-AxiKw gJLiA"
+            class="sc-AxiKw ZcBNP"
             src="https://prod-wolt-venue-images-cdn.wolt.com/5de0e07c8995dc9c25304c9f/7680cf2cffae35b7302e3a91b65ce8f5"
             style="display: none;"
           />
@@ -755,36 +843,44 @@ exports[`<App /> App snapshot is not broken 1`] = `
             class="sc-AxhCb kNIUKJ"
           >
             <div
-              class="sc-AxhUy jZSYEE"
+              class="sc-AxhUy dxsYJB"
             >
               Fafa's Sokos
             </div>
             <div
-              class="sc-AxgMl CORwf"
+              class="sc-AxgMl fFFxIt"
             >
               Maukkaat ja reilut pitat, salaatit ja falafelit
             </div>
           </div>
           <div
-            class="sc-AxheI iXcNiZ"
+            class="sc-AxheI fSuTGP"
           >
-            <span
-              class="sc-Axmtr gbpUmn"
-            >
-               Delivery 
-              3.90
-               €
-            </span>
             <div
-              class="sc-AxmLO cAKCgh"
+              class="sc-Axmtr daOfpU"
+            >
+              <img
+                alt="delivery icon"
+                class="sc-AxmLO iywtMK"
+                src=""
+              />
+              <span
+                class="sc-fzozJi jxgYyc"
+              >
+                3.90
+                 €
+              </span>
+            </div>
+            <div
+              class="sc-fzoLsD fqEnxe"
             >
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 street food
               </span>
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 pita
               </span>
@@ -792,11 +888,11 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hbyGnC"
+          class="sc-AxirZ kwveBS"
           data-testid="restaurant"
         >
           <div
-            style="display: inline-block; height: 158px; width: 210px; position: relative;"
+            style="display: inline-block; height: 100%; width: 100%; position: relative;"
           >
             <canvas
               height="32"
@@ -807,7 +903,7 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
           <img
             alt="Fazer Café Forum_image"
-            class="sc-AxiKw gJLiA"
+            class="sc-AxiKw ZcBNP"
             src="https://prod-wolt-venue-images-cdn.wolt.com/5a05981ba76f3b000cd03d26/867515acfc4d40583fd5e564289f0c40"
             style="display: none;"
           />
@@ -815,36 +911,44 @@ exports[`<App /> App snapshot is not broken 1`] = `
             class="sc-AxhCb kNIUKJ"
           >
             <div
-              class="sc-AxhUy jZSYEE"
+              class="sc-AxhUy dxsYJB"
             >
               Fazer Café Forum
             </div>
             <div
-              class="sc-AxgMl CORwf"
+              class="sc-AxgMl fFFxIt"
             >
               Moderni klassinen kahvila
             </div>
           </div>
           <div
-            class="sc-AxheI iXcNiZ"
+            class="sc-AxheI fSuTGP"
           >
-            <span
-              class="sc-Axmtr gbpUmn"
-            >
-               Delivery 
-              3.90
-               €
-            </span>
             <div
-              class="sc-AxmLO cAKCgh"
+              class="sc-Axmtr daOfpU"
+            >
+              <img
+                alt="delivery icon"
+                class="sc-AxmLO iywtMK"
+                src=""
+              />
+              <span
+                class="sc-fzozJi jxgYyc"
+              >
+                3.90
+                 €
+              </span>
+            </div>
+            <div
+              class="sc-fzoLsD fqEnxe"
             >
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 salad
               </span>
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 sandwich
               </span>
@@ -852,11 +956,11 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hbyGnC"
+          class="sc-AxirZ kwveBS"
           data-testid="restaurant"
         >
           <div
-            style="display: inline-block; height: 158px; width: 210px; position: relative;"
+            style="display: inline-block; height: 100%; width: 100%; position: relative;"
           >
             <canvas
               height="32"
@@ -867,7 +971,7 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
           <img
             alt="FLQ Kaisaniemi_image"
-            class="sc-AxiKw gJLiA"
+            class="sc-AxiKw ZcBNP"
             src="https://prod-wolt-venue-images-cdn.wolt.com/5de10291107530a9eff0a6d4/60bb8d0268e723ff3741fe21324b71fb"
             style="display: none;"
           />
@@ -875,36 +979,44 @@ exports[`<App /> App snapshot is not broken 1`] = `
             class="sc-AxhCb kNIUKJ"
           >
             <div
-              class="sc-AxhUy jZSYEE"
+              class="sc-AxhUy dxsYJB"
             >
               FLQ Kaisaniemi
             </div>
             <div
-              class="sc-AxgMl CORwf"
+              class="sc-AxgMl fFFxIt"
             >
               Herkullinen aasialainen
             </div>
           </div>
           <div
-            class="sc-AxheI iXcNiZ"
+            class="sc-AxheI fSuTGP"
           >
-            <span
-              class="sc-Axmtr gbpUmn"
-            >
-               Delivery 
-              3.90
-               €
-            </span>
             <div
-              class="sc-AxmLO cAKCgh"
+              class="sc-Axmtr daOfpU"
+            >
+              <img
+                alt="delivery icon"
+                class="sc-AxmLO iywtMK"
+                src=""
+              />
+              <span
+                class="sc-fzozJi jxgYyc"
+              >
+                3.90
+                 €
+              </span>
+            </div>
+            <div
+              class="sc-fzoLsD fqEnxe"
             >
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 asian
               </span>
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 sushi
               </span>
@@ -912,11 +1024,11 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hbyGnC"
+          class="sc-AxirZ kwveBS"
           data-testid="restaurant"
         >
           <div
-            style="display: inline-block; height: 158px; width: 210px; position: relative;"
+            style="display: inline-block; height: 100%; width: 100%; position: relative;"
           >
             <canvas
               height="32"
@@ -927,7 +1039,7 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
           <img
             alt="FreshStop Eliel_image"
-            class="sc-AxiKw gJLiA"
+            class="sc-AxiKw ZcBNP"
             src="https://prod-wolt-venue-images-cdn.wolt.com/56653ef5c26b4c6830ede645/7ebc624172ee732134538bebde1d0f20"
             style="display: none;"
           />
@@ -935,36 +1047,44 @@ exports[`<App /> App snapshot is not broken 1`] = `
             class="sc-AxhCb kNIUKJ"
           >
             <div
-              class="sc-AxhUy jZSYEE"
+              class="sc-AxhUy dxsYJB"
             >
               FreshStop Eliel
             </div>
             <div
-              class="sc-AxgMl CORwf"
+              class="sc-AxgMl fFFxIt"
             >
               Smoothiet ja leivät nopeasti
             </div>
           </div>
           <div
-            class="sc-AxheI iXcNiZ"
+            class="sc-AxheI fSuTGP"
           >
-            <span
-              class="sc-Axmtr gbpUmn"
-            >
-               Delivery 
-              3.90
-               €
-            </span>
             <div
-              class="sc-AxmLO cAKCgh"
+              class="sc-Axmtr daOfpU"
+            >
+              <img
+                alt="delivery icon"
+                class="sc-AxmLO iywtMK"
+                src=""
+              />
+              <span
+                class="sc-fzozJi jxgYyc"
+              >
+                3.90
+                 €
+              </span>
+            </div>
+            <div
+              class="sc-fzoLsD fqEnxe"
             >
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 café
               </span>
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 coffee
               </span>
@@ -972,11 +1092,11 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hbyGnC"
+          class="sc-AxirZ kwveBS"
           data-testid="restaurant"
         >
           <div
-            style="display: inline-block; height: 158px; width: 210px; position: relative;"
+            style="display: inline-block; height: 100%; width: 100%; position: relative;"
           >
             <canvas
               height="32"
@@ -987,7 +1107,7 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
           <img
             alt="Friends & Brgrs Helsinki_image"
-            class="sc-AxiKw gJLiA"
+            class="sc-AxiKw ZcBNP"
             src="https://prod-wolt-venue-images-cdn.wolt.com/5cf625dde24129e12f1ec781/636748c3a82679c58550c52e69f152af"
             style="display: none;"
           />
@@ -995,36 +1115,44 @@ exports[`<App /> App snapshot is not broken 1`] = `
             class="sc-AxhCb kNIUKJ"
           >
             <div
-              class="sc-AxhUy jZSYEE"
+              class="sc-AxhUy dxsYJB"
             >
               Friends & Brgrs Helsinki
             </div>
             <div
-              class="sc-AxgMl CORwf"
+              class="sc-AxgMl fFFxIt"
             >
               Gourmet hampurilaisia ja triple-cooked ranskalaisia
             </div>
           </div>
           <div
-            class="sc-AxheI iXcNiZ"
+            class="sc-AxheI fSuTGP"
           >
-            <span
-              class="sc-Axmtr gbpUmn"
-            >
-               Delivery 
-              3.90
-               €
-            </span>
             <div
-              class="sc-AxmLO cAKCgh"
+              class="sc-Axmtr daOfpU"
+            >
+              <img
+                alt="delivery icon"
+                class="sc-AxmLO iywtMK"
+                src=""
+              />
+              <span
+                class="sc-fzozJi jxgYyc"
+              >
+                3.90
+                 €
+              </span>
+            </div>
+            <div
+              class="sc-fzoLsD fqEnxe"
             >
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 burger
               </span>
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 hamburger
               </span>
@@ -1032,11 +1160,11 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hbyGnC"
+          class="sc-AxirZ kwveBS"
           data-testid="restaurant"
         >
           <div
-            style="display: inline-block; height: 158px; width: 210px; position: relative;"
+            style="display: inline-block; height: 100%; width: 100%; position: relative;"
           >
             <canvas
               height="32"
@@ -1047,7 +1175,7 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
           <img
             alt="Fuku Helsinki_image"
-            class="sc-AxiKw gJLiA"
+            class="sc-AxiKw ZcBNP"
             src="https://prod-wolt-venue-images-cdn.wolt.com/54fed4b8747daa39fff94ff2/57606ccce2a2ed4ce98d4043934e013e"
             style="display: none;"
           />
@@ -1055,36 +1183,44 @@ exports[`<App /> App snapshot is not broken 1`] = `
             class="sc-AxhCb kNIUKJ"
           >
             <div
-              class="sc-AxhUy jZSYEE"
+              class="sc-AxhUy dxsYJB"
             >
               Fuku Helsinki
             </div>
             <div
-              class="sc-AxgMl CORwf"
+              class="sc-AxgMl fFFxIt"
             >
               Laadukasta sushia
             </div>
           </div>
           <div
-            class="sc-AxheI iXcNiZ"
+            class="sc-AxheI fSuTGP"
           >
-            <span
-              class="sc-Axmtr gbpUmn"
-            >
-               Delivery 
-              3.90
-               €
-            </span>
             <div
-              class="sc-AxmLO cAKCgh"
+              class="sc-Axmtr daOfpU"
+            >
+              <img
+                alt="delivery icon"
+                class="sc-AxmLO iywtMK"
+                src=""
+              />
+              <span
+                class="sc-fzozJi jxgYyc"
+              >
+                3.90
+                 €
+              </span>
+            </div>
+            <div
+              class="sc-fzoLsD fqEnxe"
             >
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 sushi
               </span>
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 japanese
               </span>
@@ -1092,11 +1228,11 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hbyGnC"
+          class="sc-AxirZ kwveBS"
           data-testid="restaurant"
         >
           <div
-            style="display: inline-block; height: 158px; width: 210px; position: relative;"
+            style="display: inline-block; height: 100%; width: 100%; position: relative;"
           >
             <canvas
               height="32"
@@ -1107,7 +1243,7 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
           <img
             alt="Grande Grill & Green_image"
-            class="sc-AxiKw gJLiA"
+            class="sc-AxiKw ZcBNP"
             src="https://prod-wolt-venue-images-cdn.wolt.com/568f828c4f2a1574b22f31f6/25d4cb0845abef6d0375f69df874bbb4"
             style="display: none;"
           />
@@ -1115,36 +1251,44 @@ exports[`<App /> App snapshot is not broken 1`] = `
             class="sc-AxhCb kNIUKJ"
           >
             <div
-              class="sc-AxhUy jZSYEE"
+              class="sc-AxhUy dxsYJB"
             >
               Grande Grill & Green
             </div>
             <div
-              class="sc-AxgMl CORwf"
+              class="sc-AxgMl fFFxIt"
             >
               Vegeystävällinen pihviravintola
             </div>
           </div>
           <div
-            class="sc-AxheI iXcNiZ"
+            class="sc-AxheI fSuTGP"
           >
-            <span
-              class="sc-Axmtr gbpUmn"
-            >
-               Delivery 
-              3.90
-               €
-            </span>
             <div
-              class="sc-AxmLO cAKCgh"
+              class="sc-Axmtr daOfpU"
+            >
+              <img
+                alt="delivery icon"
+                class="sc-AxmLO iywtMK"
+                src=""
+              />
+              <span
+                class="sc-fzozJi jxgYyc"
+              >
+                3.90
+                 €
+              </span>
+            </div>
+            <div
+              class="sc-fzoLsD fqEnxe"
             >
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 steak
               </span>
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 ribs
               </span>
@@ -1152,11 +1296,11 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hbyGnC"
+          class="sc-AxirZ kwveBS"
           data-testid="restaurant"
         >
           <div
-            style="display: inline-block; height: 158px; width: 210px; position: relative;"
+            style="display: inline-block; height: 100%; width: 100%; position: relative;"
           >
             <canvas
               height="32"
@@ -1167,7 +1311,7 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
           <img
             alt="Haiku Sushi_image"
-            class="sc-AxiKw gJLiA"
+            class="sc-AxiKw ZcBNP"
             src="https://prod-wolt-venue-images-cdn.wolt.com/5bd16f9fae0064000c88ce3a/4579a3e0b606975c69ebcf2ab1a50d4b"
             style="display: none;"
           />
@@ -1175,36 +1319,44 @@ exports[`<App /> App snapshot is not broken 1`] = `
             class="sc-AxhCb kNIUKJ"
           >
             <div
-              class="sc-AxhUy jZSYEE"
+              class="sc-AxhUy dxsYJB"
             >
               Haiku Sushi
             </div>
             <div
-              class="sc-AxgMl CORwf"
+              class="sc-AxgMl fFFxIt"
             >
               Käsintehtyä sushia
             </div>
           </div>
           <div
-            class="sc-AxheI iXcNiZ"
+            class="sc-AxheI fSuTGP"
           >
-            <span
-              class="sc-Axmtr gbpUmn"
-            >
-               Delivery 
-              3.90
-               €
-            </span>
             <div
-              class="sc-AxmLO cAKCgh"
+              class="sc-Axmtr daOfpU"
+            >
+              <img
+                alt="delivery icon"
+                class="sc-AxmLO iywtMK"
+                src=""
+              />
+              <span
+                class="sc-fzozJi jxgYyc"
+              >
+                3.90
+                 €
+              </span>
+            </div>
+            <div
+              class="sc-fzoLsD fqEnxe"
             >
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 sushi
               </span>
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 japanese
               </span>
@@ -1212,11 +1364,11 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hbyGnC"
+          class="sc-AxirZ kwveBS"
           data-testid="restaurant"
         >
           <div
-            style="display: inline-block; height: 158px; width: 210px; position: relative;"
+            style="display: inline-block; height: 100%; width: 100%; position: relative;"
           >
             <canvas
               height="32"
@@ -1227,7 +1379,7 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
           <img
             alt="Hanko Sushi Forum_image"
-            class="sc-AxiKw gJLiA"
+            class="sc-AxiKw ZcBNP"
             src="https://prod-wolt-venue-images-cdn.wolt.com/56a1d69c38115153ce516be7/b55be8561839f5bf03cf1e78933a8295"
             style="display: none;"
           />
@@ -1235,36 +1387,44 @@ exports[`<App /> App snapshot is not broken 1`] = `
             class="sc-AxhCb kNIUKJ"
           >
             <div
-              class="sc-AxhUy jZSYEE"
+              class="sc-AxhUy dxsYJB"
             >
               Hanko Sushi Forum
             </div>
             <div
-              class="sc-AxgMl CORwf"
+              class="sc-AxgMl fFFxIt"
             >
               Sushia tuoreista raaka-aineista
             </div>
           </div>
           <div
-            class="sc-AxheI iXcNiZ"
+            class="sc-AxheI fSuTGP"
           >
-            <span
-              class="sc-Axmtr gbpUmn"
-            >
-               Delivery 
-              3.90
-               €
-            </span>
             <div
-              class="sc-AxmLO cAKCgh"
+              class="sc-Axmtr daOfpU"
+            >
+              <img
+                alt="delivery icon"
+                class="sc-AxmLO iywtMK"
+                src=""
+              />
+              <span
+                class="sc-fzozJi jxgYyc"
+              >
+                3.90
+                 €
+              </span>
+            </div>
+            <div
+              class="sc-fzoLsD fqEnxe"
             >
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 sushi
               </span>
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 japanese
               </span>
@@ -1272,11 +1432,11 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hbyGnC"
+          class="sc-AxirZ kwveBS"
           data-testid="restaurant"
         >
           <div
-            style="display: inline-block; height: 158px; width: 210px; position: relative;"
+            style="display: inline-block; height: 100%; width: 100%; position: relative;"
           >
             <canvas
               height="32"
@@ -1287,7 +1447,7 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
           <img
             alt="Hanko Sushi Stockmann_image"
-            class="sc-AxiKw gJLiA"
+            class="sc-AxiKw ZcBNP"
             src="https://prod-wolt-venue-images-cdn.wolt.com/5ccab0d56f0ac41e1cd75f7f/3204aff8bf9036615d694f0f85755726"
             style="display: none;"
           />
@@ -1295,36 +1455,44 @@ exports[`<App /> App snapshot is not broken 1`] = `
             class="sc-AxhCb kNIUKJ"
           >
             <div
-              class="sc-AxhUy jZSYEE"
+              class="sc-AxhUy dxsYJB"
             >
               Hanko Sushi Stockmann
             </div>
             <div
-              class="sc-AxgMl CORwf"
+              class="sc-AxgMl fFFxIt"
             >
               Sushia tuoreista raaka-aineista
             </div>
           </div>
           <div
-            class="sc-AxheI iXcNiZ"
+            class="sc-AxheI fSuTGP"
           >
-            <span
-              class="sc-Axmtr gbpUmn"
-            >
-               Delivery 
-              3.90
-               €
-            </span>
             <div
-              class="sc-AxmLO cAKCgh"
+              class="sc-Axmtr daOfpU"
+            >
+              <img
+                alt="delivery icon"
+                class="sc-AxmLO iywtMK"
+                src=""
+              />
+              <span
+                class="sc-fzozJi jxgYyc"
+              >
+                3.90
+                 €
+              </span>
+            </div>
+            <div
+              class="sc-fzoLsD fqEnxe"
             >
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 sushi
               </span>
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 japanese
               </span>
@@ -1332,11 +1500,11 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hbyGnC"
+          class="sc-AxirZ kwveBS"
           data-testid="restaurant"
         >
           <div
-            style="display: inline-block; height: 158px; width: 210px; position: relative;"
+            style="display: inline-block; height: 100%; width: 100%; position: relative;"
           >
             <canvas
               height="32"
@@ -1347,7 +1515,7 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
           <img
             alt="Happy Waffle Helsinki_image"
-            class="sc-AxiKw gJLiA"
+            class="sc-AxiKw ZcBNP"
             src="https://prod-wolt-venue-images-cdn.wolt.com/5cebc11129767db5f44809e6/68415e1504b099daa40f4bf69f230224"
             style="display: none;"
           />
@@ -1355,36 +1523,44 @@ exports[`<App /> App snapshot is not broken 1`] = `
             class="sc-AxhCb kNIUKJ"
           >
             <div
-              class="sc-AxhUy jZSYEE"
+              class="sc-AxhUy dxsYJB"
             >
               Happy Waffle Helsinki
             </div>
             <div
-              class="sc-AxgMl CORwf"
+              class="sc-AxgMl fFFxIt"
             >
               Herkulliset makeat ja suolaiset vohvelit
             </div>
           </div>
           <div
-            class="sc-AxheI iXcNiZ"
+            class="sc-AxheI fSuTGP"
           >
-            <span
-              class="sc-Axmtr gbpUmn"
-            >
-               Delivery 
-              3.90
-               €
-            </span>
             <div
-              class="sc-AxmLO cAKCgh"
+              class="sc-Axmtr daOfpU"
+            >
+              <img
+                alt="delivery icon"
+                class="sc-AxmLO iywtMK"
+                src=""
+              />
+              <span
+                class="sc-fzozJi jxgYyc"
+              >
+                3.90
+                 €
+              </span>
+            </div>
+            <div
+              class="sc-fzoLsD fqEnxe"
             >
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 waffles
               </span>
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 sweet
               </span>
@@ -1392,11 +1568,11 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hbyGnC"
+          class="sc-AxirZ kwveBS"
           data-testid="restaurant"
         >
           <div
-            style="display: inline-block; height: 158px; width: 210px; position: relative;"
+            style="display: inline-block; height: 100%; width: 100%; position: relative;"
           >
             <canvas
               height="32"
@@ -1407,7 +1583,7 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
           <img
             alt="Hey Poke Citycenter_image"
-            class="sc-AxiKw gJLiA"
+            class="sc-AxiKw ZcBNP"
             src="https://prod-wolt-venue-images-cdn.wolt.com/5b8e46f4c9d2f5000b8216fa/4c97474360f98231b7bb1f90e430855d"
             style="display: none;"
           />
@@ -1415,36 +1591,44 @@ exports[`<App /> App snapshot is not broken 1`] = `
             class="sc-AxhCb kNIUKJ"
           >
             <div
-              class="sc-AxhUy jZSYEE"
+              class="sc-AxhUy dxsYJB"
             >
               Hey Poke Citycenter
             </div>
             <div
-              class="sc-AxgMl CORwf"
+              class="sc-AxgMl fFFxIt"
             >
               Trendikkäät havaijilaiset poket
             </div>
           </div>
           <div
-            class="sc-AxheI iXcNiZ"
+            class="sc-AxheI fSuTGP"
           >
-            <span
-              class="sc-Axmtr gbpUmn"
-            >
-               Delivery 
-              3.90
-               €
-            </span>
             <div
-              class="sc-AxmLO cAKCgh"
+              class="sc-Axmtr daOfpU"
+            >
+              <img
+                alt="delivery icon"
+                class="sc-AxmLO iywtMK"
+                src=""
+              />
+              <span
+                class="sc-fzozJi jxgYyc"
+              >
+                3.90
+                 €
+              </span>
+            </div>
+            <div
+              class="sc-fzoLsD fqEnxe"
             >
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 poke
               </span>
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 Hawaii
               </span>
@@ -1452,11 +1636,11 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hbyGnC"
+          class="sc-AxirZ kwveBS"
           data-testid="restaurant"
         >
           <div
-            style="display: inline-block; height: 158px; width: 210px; position: relative;"
+            style="display: inline-block; height: 100%; width: 100%; position: relative;"
           >
             <canvas
               height="32"
@@ -1467,7 +1651,7 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
           <img
             alt="Huacheng_image"
-            class="sc-AxiKw gJLiA"
+            class="sc-AxiKw ZcBNP"
             src="https://prod-wolt-venue-images-cdn.wolt.com/59896e4afe13b41d94815c80/67761101f983121bd46972bd5f511969"
             style="display: none;"
           />
@@ -1475,36 +1659,44 @@ exports[`<App /> App snapshot is not broken 1`] = `
             class="sc-AxhCb kNIUKJ"
           >
             <div
-              class="sc-AxhUy jZSYEE"
+              class="sc-AxhUy dxsYJB"
             >
               Huacheng
             </div>
             <div
-              class="sc-AxgMl CORwf"
+              class="sc-AxgMl fFFxIt"
             >
               Autenttinen kiinalainen
             </div>
           </div>
           <div
-            class="sc-AxheI iXcNiZ"
+            class="sc-AxheI fSuTGP"
           >
-            <span
-              class="sc-Axmtr gbpUmn"
-            >
-               Delivery 
-              3.90
-               €
-            </span>
             <div
-              class="sc-AxmLO cAKCgh"
+              class="sc-Axmtr daOfpU"
+            >
+              <img
+                alt="delivery icon"
+                class="sc-AxmLO iywtMK"
+                src=""
+              />
+              <span
+                class="sc-fzozJi jxgYyc"
+              >
+                3.90
+                 €
+              </span>
+            </div>
+            <div
+              class="sc-fzoLsD fqEnxe"
             >
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 chinese
               </span>
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 asian
               </span>
@@ -1512,11 +1704,11 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hbyGnC"
+          class="sc-AxirZ kwveBS"
           data-testid="restaurant"
         >
           <div
-            style="display: inline-block; height: 158px; width: 210px; position: relative;"
+            style="display: inline-block; height: 100%; width: 100%; position: relative;"
           >
             <canvas
               height="32"
@@ -1527,7 +1719,7 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
           <img
             alt="Jufu Rautatientori_image"
-            class="sc-AxiKw gJLiA"
+            class="sc-AxiKw ZcBNP"
             src="https://prod-wolt-venue-images-cdn.wolt.com/56c2ec86909ca36c652dad14/14aa53560b987b36da0d50069ca7e267"
             style="display: none;"
           />
@@ -1535,36 +1727,44 @@ exports[`<App /> App snapshot is not broken 1`] = `
             class="sc-AxhCb kNIUKJ"
           >
             <div
-              class="sc-AxhUy jZSYEE"
+              class="sc-AxhUy dxsYJB"
             >
               Jufu Rautatientori
             </div>
             <div
-              class="sc-AxgMl CORwf"
+              class="sc-AxgMl fFFxIt"
             >
               Kiinalaisia perinneruokia
             </div>
           </div>
           <div
-            class="sc-AxheI iXcNiZ"
+            class="sc-AxheI fSuTGP"
           >
-            <span
-              class="sc-Axmtr gbpUmn"
-            >
-               Delivery 
-              3.90
-               €
-            </span>
             <div
-              class="sc-AxmLO cAKCgh"
+              class="sc-Axmtr daOfpU"
+            >
+              <img
+                alt="delivery icon"
+                class="sc-AxmLO iywtMK"
+                src=""
+              />
+              <span
+                class="sc-fzozJi jxgYyc"
+              >
+                3.90
+                 €
+              </span>
+            </div>
+            <div
+              class="sc-fzoLsD fqEnxe"
             >
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 chinese
               </span>
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 sushi
               </span>
@@ -1572,11 +1772,11 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hbyGnC"
+          class="sc-AxirZ kwveBS"
           data-testid="restaurant"
         >
           <div
-            style="display: inline-block; height: 158px; width: 210px; position: relative;"
+            style="display: inline-block; height: 100%; width: 100%; position: relative;"
           >
             <canvas
               height="32"
@@ -1587,7 +1787,7 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
           <img
             alt="Jungle Juice Bar Forum_image"
-            class="sc-AxiKw gJLiA"
+            class="sc-AxiKw ZcBNP"
             src="https://prod-wolt-venue-images-cdn.wolt.com/553df9d27ce4db6244fb0ba9/8088de706e432f14376bf98c2b50816c"
             style="display: none;"
           />
@@ -1595,36 +1795,44 @@ exports[`<App /> App snapshot is not broken 1`] = `
             class="sc-AxhCb kNIUKJ"
           >
             <div
-              class="sc-AxhUy jZSYEE"
+              class="sc-AxhUy dxsYJB"
             >
               Jungle Juice Bar Forum
             </div>
             <div
-              class="sc-AxgMl CORwf"
+              class="sc-AxgMl fFFxIt"
             >
               Piristävät mehut & smoothiet
             </div>
           </div>
           <div
-            class="sc-AxheI iXcNiZ"
+            class="sc-AxheI fSuTGP"
           >
-            <span
-              class="sc-Axmtr gbpUmn"
-            >
-               Delivery 
-              3.90
-               €
-            </span>
             <div
-              class="sc-AxmLO cAKCgh"
+              class="sc-Axmtr daOfpU"
+            >
+              <img
+                alt="delivery icon"
+                class="sc-AxmLO iywtMK"
+                src=""
+              />
+              <span
+                class="sc-fzozJi jxgYyc"
+              >
+                3.90
+                 €
+              </span>
+            </div>
+            <div
+              class="sc-fzoLsD fqEnxe"
             >
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 fruit
               </span>
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 smoothie
               </span>
@@ -1632,11 +1840,11 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hbyGnC"
+          class="sc-AxirZ kwveBS"
           data-testid="restaurant"
         >
           <div
-            style="display: inline-block; height: 158px; width: 210px; position: relative;"
+            style="display: inline-block; height: 100%; width: 100%; position: relative;"
           >
             <canvas
               height="32"
@@ -1647,7 +1855,7 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
           <img
             alt="Kippo_image"
-            class="sc-AxiKw gJLiA"
+            class="sc-AxiKw ZcBNP"
             src="https://prod-wolt-venue-images-cdn.wolt.com/552aa44a88762f5c29a82cf2/6143ff1c11d01c51163edd34e0a8e865"
             style="display: none;"
           />
@@ -1655,36 +1863,44 @@ exports[`<App /> App snapshot is not broken 1`] = `
             class="sc-AxhCb kNIUKJ"
           >
             <div
-              class="sc-AxhUy jZSYEE"
+              class="sc-AxhUy dxsYJB"
             >
               Kippo
             </div>
             <div
-              class="sc-AxgMl CORwf"
+              class="sc-AxgMl fFFxIt"
             >
               Modernia vegeruokaa
             </div>
           </div>
           <div
-            class="sc-AxheI iXcNiZ"
+            class="sc-AxheI fSuTGP"
           >
-            <span
-              class="sc-Axmtr gbpUmn"
-            >
-               Delivery 
-              3.90
-               €
-            </span>
             <div
-              class="sc-AxmLO cAKCgh"
+              class="sc-Axmtr daOfpU"
+            >
+              <img
+                alt="delivery icon"
+                class="sc-AxmLO iywtMK"
+                src=""
+              />
+              <span
+                class="sc-fzozJi jxgYyc"
+              >
+                3.90
+                 €
+              </span>
+            </div>
+            <div
+              class="sc-fzoLsD fqEnxe"
             >
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 sandwich
               </span>
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 vegetable
               </span>
@@ -1692,11 +1908,11 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hbyGnC"
+          class="sc-AxirZ kwveBS"
           data-testid="restaurant"
         >
           <div
-            style="display: inline-block; height: 158px; width: 210px; position: relative;"
+            style="display: inline-block; height: 100%; width: 100%; position: relative;"
           >
             <canvas
               height="32"
@@ -1707,7 +1923,7 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
           <img
             alt="La Torrefazione Lasipalatsi_image"
-            class="sc-AxiKw gJLiA"
+            class="sc-AxiKw ZcBNP"
             src="https://prod-wolt-venue-images-cdn.wolt.com/5af953c7207d2d000b7aa366/8058b84912713366f8f3ac56069588be"
             style="display: none;"
           />
@@ -1715,36 +1931,44 @@ exports[`<App /> App snapshot is not broken 1`] = `
             class="sc-AxhCb kNIUKJ"
           >
             <div
-              class="sc-AxhUy jZSYEE"
+              class="sc-AxhUy dxsYJB"
             >
               La Torrefazione Lasipalatsi
             </div>
             <div
-              class="sc-AxgMl CORwf"
+              class="sc-AxgMl fFFxIt"
             >
               Kahvila vaativampaankin makuun
             </div>
           </div>
           <div
-            class="sc-AxheI iXcNiZ"
+            class="sc-AxheI fSuTGP"
           >
-            <span
-              class="sc-Axmtr gbpUmn"
-            >
-               Delivery 
-              3.90
-               €
-            </span>
             <div
-              class="sc-AxmLO cAKCgh"
+              class="sc-Axmtr daOfpU"
+            >
+              <img
+                alt="delivery icon"
+                class="sc-AxmLO iywtMK"
+                src=""
+              />
+              <span
+                class="sc-fzozJi jxgYyc"
+              >
+                3.90
+                 €
+              </span>
+            </div>
+            <div
+              class="sc-fzoLsD fqEnxe"
             >
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 breakfast
               </span>
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 smoothie
               </span>
@@ -1752,11 +1976,11 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hbyGnC"
+          class="sc-AxirZ kwveBS"
           data-testid="restaurant"
         >
           <div
-            style="display: inline-block; height: 158px; width: 210px; position: relative;"
+            style="display: inline-block; height: 100%; width: 100%; position: relative;"
           >
             <canvas
               height="32"
@@ -1767,7 +1991,7 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
           <img
             alt="Luckiefun's Kaivokatu_image"
-            class="sc-AxiKw gJLiA"
+            class="sc-AxiKw ZcBNP"
             src="https://prod-wolt-venue-images-cdn.wolt.com/5ad7050b879256000b477e16/705b6f09e5e4b33779b45afffb994cac"
             style="display: none;"
           />
@@ -1775,36 +1999,44 @@ exports[`<App /> App snapshot is not broken 1`] = `
             class="sc-AxhCb kNIUKJ"
           >
             <div
-              class="sc-AxhUy jZSYEE"
+              class="sc-AxhUy dxsYJB"
             >
               Luckiefun's Kaivokatu
             </div>
             <div
-              class="sc-AxgMl CORwf"
+              class="sc-AxgMl fFFxIt"
             >
               Tuoretta ja laadukasta sushia
             </div>
           </div>
           <div
-            class="sc-AxheI iXcNiZ"
+            class="sc-AxheI fSuTGP"
           >
-            <span
-              class="sc-Axmtr gbpUmn"
-            >
-               Delivery 
-              3.90
-               €
-            </span>
             <div
-              class="sc-AxmLO cAKCgh"
+              class="sc-Axmtr daOfpU"
+            >
+              <img
+                alt="delivery icon"
+                class="sc-AxmLO iywtMK"
+                src=""
+              />
+              <span
+                class="sc-fzozJi jxgYyc"
+              >
+                3.90
+                 €
+              </span>
+            </div>
+            <div
+              class="sc-fzoLsD fqEnxe"
             >
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 sushi
               </span>
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 japanese
               </span>
@@ -1812,11 +2044,11 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hbyGnC"
+          class="sc-AxirZ kwveBS"
           data-testid="restaurant"
         >
           <div
-            style="display: inline-block; height: 158px; width: 210px; position: relative;"
+            style="display: inline-block; height: 100%; width: 100%; position: relative;"
           >
             <canvas
               height="32"
@@ -1827,7 +2059,7 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
           <img
             alt="Mashiro Postitalo_image"
-            class="sc-AxiKw gJLiA"
+            class="sc-AxiKw ZcBNP"
             src="https://prod-wolt-venue-images-cdn.wolt.com/5caf4751b216dd000dd73660/bb2cdb3942e414c2a07b153d6949c0c4"
             style="display: none;"
           />
@@ -1835,36 +2067,44 @@ exports[`<App /> App snapshot is not broken 1`] = `
             class="sc-AxhCb kNIUKJ"
           >
             <div
-              class="sc-AxhUy jZSYEE"
+              class="sc-AxhUy dxsYJB"
             >
               Mashiro Postitalo
             </div>
             <div
-              class="sc-AxgMl CORwf"
+              class="sc-AxgMl fFFxIt"
             >
               Japanilaista ruokaa twistillä
             </div>
           </div>
           <div
-            class="sc-AxheI iXcNiZ"
+            class="sc-AxheI fSuTGP"
           >
-            <span
-              class="sc-Axmtr gbpUmn"
-            >
-               Delivery 
-              3.90
-               €
-            </span>
             <div
-              class="sc-AxmLO cAKCgh"
+              class="sc-Axmtr daOfpU"
+            >
+              <img
+                alt="delivery icon"
+                class="sc-AxmLO iywtMK"
+                src=""
+              />
+              <span
+                class="sc-fzozJi jxgYyc"
+              >
+                3.90
+                 €
+              </span>
+            </div>
+            <div
+              class="sc-fzoLsD fqEnxe"
             >
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 japanese
               </span>
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 modern
               </span>
@@ -1872,11 +2112,11 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hbyGnC"
+          class="sc-AxirZ kwveBS"
           data-testid="restaurant"
         >
           <div
-            style="display: inline-block; height: 158px; width: 210px; position: relative;"
+            style="display: inline-block; height: 100%; width: 100%; position: relative;"
           >
             <canvas
               height="32"
@@ -1887,7 +2127,7 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
           <img
             alt="McDonald's Forum Katutaso_image"
-            class="sc-AxiKw gJLiA"
+            class="sc-AxiKw ZcBNP"
             src="https://prod-wolt-venue-images-cdn.wolt.com/5ae605a7349077000b1f5ef4/51a6fc3beb1c0ec0ee807ea4b4408fcd"
             style="display: none;"
           />
@@ -1895,36 +2135,44 @@ exports[`<App /> App snapshot is not broken 1`] = `
             class="sc-AxhCb kNIUKJ"
           >
             <div
-              class="sc-AxhUy jZSYEE"
+              class="sc-AxhUy dxsYJB"
             >
               McDonald's Forum Katutaso
             </div>
             <div
-              class="sc-AxgMl CORwf"
+              class="sc-AxgMl fFFxIt"
             >
               I'm lovin' it
             </div>
           </div>
           <div
-            class="sc-AxheI iXcNiZ"
+            class="sc-AxheI fSuTGP"
           >
-            <span
-              class="sc-Axmtr gbpUmn"
-            >
-               Delivery 
-              3.90
-               €
-            </span>
             <div
-              class="sc-AxmLO cAKCgh"
+              class="sc-Axmtr daOfpU"
+            >
+              <img
+                alt="delivery icon"
+                class="sc-AxmLO iywtMK"
+                src=""
+              />
+              <span
+                class="sc-fzozJi jxgYyc"
+              >
+                3.90
+                 €
+              </span>
+            </div>
+            <div
+              class="sc-fzoLsD fqEnxe"
             >
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 hamburger
               </span>
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 fries
               </span>
@@ -1932,11 +2180,11 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hbyGnC"
+          class="sc-AxirZ kwveBS"
           data-testid="restaurant"
         >
           <div
-            style="display: inline-block; height: 158px; width: 210px; position: relative;"
+            style="display: inline-block; height: 100%; width: 100%; position: relative;"
           >
             <canvas
               height="32"
@@ -1947,7 +2195,7 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
           <img
             alt="Momotoko Citycenter_image"
-            class="sc-AxiKw gJLiA"
+            class="sc-AxiKw ZcBNP"
             src="https://prod-wolt-venue-images-cdn.wolt.com/5d108aa82e757db3f4946ca9/d88ebd36611a5e56bfc6a60264fe3f81"
             style="display: none;"
           />
@@ -1955,36 +2203,44 @@ exports[`<App /> App snapshot is not broken 1`] = `
             class="sc-AxhCb kNIUKJ"
           >
             <div
-              class="sc-AxhUy jZSYEE"
+              class="sc-AxhUy dxsYJB"
             >
               Momotoko Citycenter
             </div>
             <div
-              class="sc-AxgMl CORwf"
+              class="sc-AxgMl fFFxIt"
             >
               Japanilaista ramenia parhaimmillaan
             </div>
           </div>
           <div
-            class="sc-AxheI iXcNiZ"
+            class="sc-AxheI fSuTGP"
           >
-            <span
-              class="sc-Axmtr gbpUmn"
-            >
-               Delivery 
-              3.90
-               €
-            </span>
             <div
-              class="sc-AxmLO cAKCgh"
+              class="sc-Axmtr daOfpU"
+            >
+              <img
+                alt="delivery icon"
+                class="sc-AxmLO iywtMK"
+                src=""
+              />
+              <span
+                class="sc-fzozJi jxgYyc"
+              >
+                3.90
+                 €
+              </span>
+            </div>
+            <div
+              class="sc-fzoLsD fqEnxe"
             >
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 ramen
               </span>
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 risotto
               </span>
@@ -1992,11 +2248,11 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hbyGnC"
+          class="sc-AxirZ kwveBS"
           data-testid="restaurant"
         >
           <div
-            style="display: inline-block; height: 158px; width: 210px; position: relative;"
+            style="display: inline-block; height: 100%; width: 100%; position: relative;"
           >
             <canvas
               height="32"
@@ -2007,7 +2263,7 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
           <img
             alt="MorriSon's Helsinki_image"
-            class="sc-AxiKw gJLiA"
+            class="sc-AxiKw ZcBNP"
             src="https://prod-wolt-venue-images-cdn.wolt.com/568f89054f2a1574b0bf0d21/ba4c91a913aa4e7bee2157d26800f9d3"
             style="display: none;"
           />
@@ -2015,36 +2271,44 @@ exports[`<App /> App snapshot is not broken 1`] = `
             class="sc-AxhCb kNIUKJ"
           >
             <div
-              class="sc-AxhUy jZSYEE"
+              class="sc-AxhUy dxsYJB"
             >
               MorriSon's Helsinki
             </div>
             <div
-              class="sc-AxgMl CORwf"
+              class="sc-AxgMl fFFxIt"
             >
               Herkullisia burgereita ja pihvejä
             </div>
           </div>
           <div
-            class="sc-AxheI iXcNiZ"
+            class="sc-AxheI fSuTGP"
           >
-            <span
-              class="sc-Axmtr gbpUmn"
-            >
-               Delivery 
-              3.90
-               €
-            </span>
             <div
-              class="sc-AxmLO cAKCgh"
+              class="sc-Axmtr daOfpU"
+            >
+              <img
+                alt="delivery icon"
+                class="sc-AxmLO iywtMK"
+                src=""
+              />
+              <span
+                class="sc-fzozJi jxgYyc"
+              >
+                3.90
+                 €
+              </span>
+            </div>
+            <div
+              class="sc-fzoLsD fqEnxe"
             >
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 steak
               </span>
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 bar
               </span>
@@ -2052,11 +2316,11 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hbyGnC"
+          class="sc-AxirZ kwveBS"
           data-testid="restaurant"
         >
           <div
-            style="display: inline-block; height: 158px; width: 210px; position: relative;"
+            style="display: inline-block; height: 100%; width: 100%; position: relative;"
           >
             <canvas
               height="32"
@@ -2067,7 +2331,7 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
           <img
             alt="O'Learys Bakers_image"
-            class="sc-AxiKw gJLiA"
+            class="sc-AxiKw ZcBNP"
             src="https://prod-wolt-venue-images-cdn.wolt.com/5a1fab116727b2000cb60485/70b7e5d41c1adb8d31ec439336bc77a4"
             style="display: none;"
           />
@@ -2075,36 +2339,44 @@ exports[`<App /> App snapshot is not broken 1`] = `
             class="sc-AxhCb kNIUKJ"
           >
             <div
-              class="sc-AxhUy jZSYEE"
+              class="sc-AxhUy dxsYJB"
             >
               O'Learys Bakers
             </div>
             <div
-              class="sc-AxgMl CORwf"
+              class="sc-AxgMl fFFxIt"
             >
               Maukkaita ja runsaita annoksia
             </div>
           </div>
           <div
-            class="sc-AxheI iXcNiZ"
+            class="sc-AxheI fSuTGP"
           >
-            <span
-              class="sc-Axmtr gbpUmn"
-            >
-               Delivery 
-              3.90
-               €
-            </span>
             <div
-              class="sc-AxmLO cAKCgh"
+              class="sc-Axmtr daOfpU"
+            >
+              <img
+                alt="delivery icon"
+                class="sc-AxmLO iywtMK"
+                src=""
+              />
+              <span
+                class="sc-fzozJi jxgYyc"
+              >
+                3.90
+                 €
+              </span>
+            </div>
+            <div
+              class="sc-fzoLsD fqEnxe"
             >
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 hamburger
               </span>
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 wings
               </span>
@@ -2112,11 +2384,11 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hbyGnC"
+          class="sc-AxirZ kwveBS"
           data-testid="restaurant"
         >
           <div
-            style="display: inline-block; height: 158px; width: 210px; position: relative;"
+            style="display: inline-block; height: 100%; width: 100%; position: relative;"
           >
             <canvas
               height="32"
@@ -2127,7 +2399,7 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
           <img
             alt="Picnic Forum Kukontori_image"
-            class="sc-AxiKw gJLiA"
+            class="sc-AxiKw ZcBNP"
             src="https://prod-wolt-venue-images-cdn.wolt.com/5c8a5b14832f47000bd6ded2/a62c60063d10c4b1945582f63c83794a"
             style="display: none;"
           />
@@ -2135,36 +2407,44 @@ exports[`<App /> App snapshot is not broken 1`] = `
             class="sc-AxhCb kNIUKJ"
           >
             <div
-              class="sc-AxhUy jZSYEE"
+              class="sc-AxhUy dxsYJB"
             >
               Picnic Forum Kukontori
             </div>
             <div
-              class="sc-AxgMl CORwf"
+              class="sc-AxgMl fFFxIt"
             >
               Tuoretta ja herkullista ruokaa
             </div>
           </div>
           <div
-            class="sc-AxheI iXcNiZ"
+            class="sc-AxheI fSuTGP"
           >
-            <span
-              class="sc-Axmtr gbpUmn"
-            >
-               Delivery 
-              3.90
-               €
-            </span>
             <div
-              class="sc-AxmLO cAKCgh"
+              class="sc-Axmtr daOfpU"
+            >
+              <img
+                alt="delivery icon"
+                class="sc-AxmLO iywtMK"
+                src=""
+              />
+              <span
+                class="sc-fzozJi jxgYyc"
+              >
+                3.90
+                 €
+              </span>
+            </div>
+            <div
+              class="sc-fzoLsD fqEnxe"
             >
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 sandwich
               </span>
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 salad
               </span>
@@ -2172,11 +2452,11 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hbyGnC"
+          class="sc-AxirZ kwveBS"
           data-testid="restaurant"
         >
           <div
-            style="display: inline-block; height: 158px; width: 210px; position: relative;"
+            style="display: inline-block; height: 100%; width: 100%; position: relative;"
           >
             <canvas
               height="32"
@@ -2187,7 +2467,7 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
           <img
             alt="Picnic Yliopistonkatu_image"
-            class="sc-AxiKw gJLiA"
+            class="sc-AxiKw ZcBNP"
             src="https://prod-wolt-venue-images-cdn.wolt.com/56fb827bad0ea370a6ab1cfc/4834fbf85136d709765adc096d8739f8"
             style="display: none;"
           />
@@ -2195,36 +2475,44 @@ exports[`<App /> App snapshot is not broken 1`] = `
             class="sc-AxhCb kNIUKJ"
           >
             <div
-              class="sc-AxhUy jZSYEE"
+              class="sc-AxhUy dxsYJB"
             >
               Picnic Yliopistonkatu
             </div>
             <div
-              class="sc-AxgMl CORwf"
+              class="sc-AxgMl fFFxIt"
             >
               Tuoretta ja herkullista ruokaa
             </div>
           </div>
           <div
-            class="sc-AxheI iXcNiZ"
+            class="sc-AxheI fSuTGP"
           >
-            <span
-              class="sc-Axmtr gbpUmn"
-            >
-               Delivery 
-              3.90
-               €
-            </span>
             <div
-              class="sc-AxmLO cAKCgh"
+              class="sc-Axmtr daOfpU"
+            >
+              <img
+                alt="delivery icon"
+                class="sc-AxmLO iywtMK"
+                src=""
+              />
+              <span
+                class="sc-fzozJi jxgYyc"
+              >
+                3.90
+                 €
+              </span>
+            </div>
+            <div
+              class="sc-fzoLsD fqEnxe"
             >
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 sandwich
               </span>
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 salad
               </span>
@@ -2232,11 +2520,11 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hbyGnC"
+          class="sc-AxirZ kwveBS"
           data-testid="restaurant"
         >
           <div
-            style="display: inline-block; height: 158px; width: 210px; position: relative;"
+            style="display: inline-block; height: 100%; width: 100%; position: relative;"
           >
             <canvas
               height="32"
@@ -2247,7 +2535,7 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
           <img
             alt="Pizza Hut Citykäytävä_image"
-            class="sc-AxiKw gJLiA"
+            class="sc-AxiKw ZcBNP"
             src="https://prod-wolt-venue-images-cdn.wolt.com/55fff28cdef54a6c86e71bd5/dbe320a61e265a1a85293db4d4f962ae"
             style="display: none;"
           />
@@ -2255,37 +2543,45 @@ exports[`<App /> App snapshot is not broken 1`] = `
             class="sc-AxhCb kNIUKJ"
           >
             <div
-              class="sc-AxhUy jZSYEE"
+              class="sc-AxhUy dxsYJB"
             >
               Pizza Hut Citykäytävä
             </div>
             <div
-              class="sc-AxgMl CORwf"
+              class="sc-AxgMl fFFxIt"
             >
               Maailman suurin pizzaketju
             </div>
           </div>
           <div
-            class="sc-AxheI iXcNiZ"
+            class="sc-AxheI fSuTGP"
           >
-            <span
-              class="sc-Axmtr gbpUmn"
-            >
-               Delivery 
-              3.90
-               €
-            </span>
             <div
-              class="sc-AxmLO cAKCgh"
+              class="sc-Axmtr daOfpU"
+            >
+              <img
+                alt="delivery icon"
+                class="sc-AxmLO iywtMK"
+                src=""
+              />
+              <span
+                class="sc-fzozJi jxgYyc"
+              >
+                3.90
+                 €
+              </span>
+            </div>
+            <div
+              class="sc-fzoLsD fqEnxe"
             />
           </div>
         </div>
         <div
-          class="sc-AxirZ hbyGnC"
+          class="sc-AxirZ kwveBS"
           data-testid="restaurant"
         >
           <div
-            style="display: inline-block; height: 158px; width: 210px; position: relative;"
+            style="display: inline-block; height: 100%; width: 100%; position: relative;"
           >
             <canvas
               height="32"
@@ -2296,7 +2592,7 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
           <img
             alt="Pizza Hut Forum_image"
-            class="sc-AxiKw gJLiA"
+            class="sc-AxiKw ZcBNP"
             src="https://prod-wolt-venue-images-cdn.wolt.com/5c5c791252b75d000aad59ff/dbe320a61e265a1a85293db4d4f962ae"
             style="display: none;"
           />
@@ -2304,36 +2600,44 @@ exports[`<App /> App snapshot is not broken 1`] = `
             class="sc-AxhCb kNIUKJ"
           >
             <div
-              class="sc-AxhUy jZSYEE"
+              class="sc-AxhUy dxsYJB"
             >
               Pizza Hut Forum
             </div>
             <div
-              class="sc-AxgMl CORwf"
+              class="sc-AxgMl fFFxIt"
             >
               Herkullisia pizzoja
             </div>
           </div>
           <div
-            class="sc-AxheI iXcNiZ"
+            class="sc-AxheI fSuTGP"
           >
-            <span
-              class="sc-Axmtr gbpUmn"
-            >
-               Delivery 
-              3.90
-               €
-            </span>
             <div
-              class="sc-AxmLO cAKCgh"
+              class="sc-Axmtr daOfpU"
+            >
+              <img
+                alt="delivery icon"
+                class="sc-AxmLO iywtMK"
+                src=""
+              />
+              <span
+                class="sc-fzozJi jxgYyc"
+              >
+                3.90
+                 €
+              </span>
+            </div>
+            <div
+              class="sc-fzoLsD fqEnxe"
             >
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 pizza
               </span>
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 family
               </span>
@@ -2341,11 +2645,11 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hbyGnC"
+          class="sc-AxirZ kwveBS"
           data-testid="restaurant"
         >
           <div
-            style="display: inline-block; height: 158px; width: 210px; position: relative;"
+            style="display: inline-block; height: 100%; width: 100%; position: relative;"
           >
             <canvas
               height="32"
@@ -2356,7 +2660,7 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
           <img
             alt="Pizzeria & Spagetteria MorriSon's_image"
-            class="sc-AxiKw gJLiA"
+            class="sc-AxiKw ZcBNP"
             src="https://prod-wolt-venue-images-cdn.wolt.com/568f8bdf32e715490b1f9f1f/14ba87022c62a50a3809f43fbee9430b"
             style="display: none;"
           />
@@ -2364,36 +2668,44 @@ exports[`<App /> App snapshot is not broken 1`] = `
             class="sc-AxhCb kNIUKJ"
           >
             <div
-              class="sc-AxhUy jZSYEE"
+              class="sc-AxhUy dxsYJB"
             >
               Pizzeria & Spagetteria MorriSon's
             </div>
             <div
-              class="sc-AxgMl CORwf"
+              class="sc-AxgMl fFFxIt"
             >
               Maukkaita pizzoja ja pastoja
             </div>
           </div>
           <div
-            class="sc-AxheI iXcNiZ"
+            class="sc-AxheI fSuTGP"
           >
-            <span
-              class="sc-Axmtr gbpUmn"
-            >
-               Delivery 
-              3.90
-               €
-            </span>
             <div
-              class="sc-AxmLO cAKCgh"
+              class="sc-Axmtr daOfpU"
+            >
+              <img
+                alt="delivery icon"
+                class="sc-AxmLO iywtMK"
+                src=""
+              />
+              <span
+                class="sc-fzozJi jxgYyc"
+              >
+                3.90
+                 €
+              </span>
+            </div>
+            <div
+              class="sc-fzoLsD fqEnxe"
             >
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 pizza
               </span>
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 pasta
               </span>
@@ -2401,11 +2713,11 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hbyGnC"
+          class="sc-AxirZ kwveBS"
           data-testid="restaurant"
         >
           <div
-            style="display: inline-block; height: 158px; width: 210px; position: relative;"
+            style="display: inline-block; height: 100%; width: 100%; position: relative;"
           >
             <canvas
               height="32"
@@ -2416,7 +2728,7 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
           <img
             alt="Sandro Citykäytävä_image"
-            class="sc-AxiKw gJLiA"
+            class="sc-AxiKw ZcBNP"
             src="https://prod-wolt-venue-images-cdn.wolt.com/5d63b2f947e0db48e4c19e46/f790340eaf6cce48712fd7a0887ba65c"
             style="display: none;"
           />
@@ -2424,36 +2736,39 @@ exports[`<App /> App snapshot is not broken 1`] = `
             class="sc-AxhCb kNIUKJ"
           >
             <div
-              class="sc-AxhUy jZSYEE"
+              class="sc-AxhUy dxsYJB"
             >
               Sandro Citykäytävä
             </div>
             <div
-              class="sc-AxgMl CORwf"
+              class="sc-AxgMl fFFxIt"
             >
               Fresh ingredients makes fresh taste
             </div>
           </div>
           <div
-            class="sc-AxheI iXcNiZ"
+            class="sc-AxheI fSuTGP"
           >
-            <span
-              class="sc-Axmtr gbpUmn"
-            >
-               Delivery 
-              3.90
-               €
-            </span>
             <div
-              class="sc-AxmLO cAKCgh"
+              class="sc-Axmtr daOfpU"
+            >
+              <img
+                alt="delivery icon"
+                class="sc-AxmLO iywtMK"
+                src=""
+              />
+              <span
+                class="sc-fzozJi jxgYyc"
+              >
+                3.90
+                 €
+              </span>
+            </div>
+            <div
+              class="sc-fzoLsD fqEnxe"
             >
               <span
-                class="sc-fzozJi fSOJId"
-              >
-                middle eastern
-              </span>
-              <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 north-african
               </span>
@@ -2461,11 +2776,11 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hbyGnC"
+          class="sc-AxirZ kwveBS"
           data-testid="restaurant"
         >
           <div
-            style="display: inline-block; height: 158px; width: 210px; position: relative;"
+            style="display: inline-block; height: 100%; width: 100%; position: relative;"
           >
             <canvas
               height="32"
@@ -2476,7 +2791,7 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
           <img
             alt="Santa Fé_image"
-            class="sc-AxiKw gJLiA"
+            class="sc-AxiKw ZcBNP"
             src="https://prod-wolt-venue-images-cdn.wolt.com/568f7f3532e7153bff4acd44/0378c2da44b0946efdde51cd7ceb5187"
             style="display: none;"
           />
@@ -2484,36 +2799,44 @@ exports[`<App /> App snapshot is not broken 1`] = `
             class="sc-AxhCb kNIUKJ"
           >
             <div
-              class="sc-AxhUy jZSYEE"
+              class="sc-AxhUy dxsYJB"
             >
               Santa Fé
             </div>
             <div
-              class="sc-AxgMl CORwf"
+              class="sc-AxgMl fFFxIt"
             >
               Meksikon eksoottiset maut
             </div>
           </div>
           <div
-            class="sc-AxheI iXcNiZ"
+            class="sc-AxheI fSuTGP"
           >
-            <span
-              class="sc-Axmtr gbpUmn"
-            >
-               Delivery 
-              3.90
-               €
-            </span>
             <div
-              class="sc-AxmLO cAKCgh"
+              class="sc-Axmtr daOfpU"
+            >
+              <img
+                alt="delivery icon"
+                class="sc-AxmLO iywtMK"
+                src=""
+              />
+              <span
+                class="sc-fzozJi jxgYyc"
+              >
+                3.90
+                 €
+              </span>
+            </div>
+            <div
+              class="sc-fzoLsD fqEnxe"
             >
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 mexican
               </span>
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 tex-mex
               </span>
@@ -2521,11 +2844,11 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hbyGnC"
+          class="sc-AxirZ kwveBS"
           data-testid="restaurant"
         >
           <div
-            style="display: inline-block; height: 158px; width: 210px; position: relative;"
+            style="display: inline-block; height: 100%; width: 100%; position: relative;"
           >
             <canvas
               height="32"
@@ -2536,7 +2859,7 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
           <img
             alt="Siipiweikot Helsinki_image"
-            class="sc-AxiKw gJLiA"
+            class="sc-AxiKw ZcBNP"
             src="https://prod-wolt-venue-images-cdn.wolt.com/590c53172b10d62f9ac14830/2b416f8e941ceebb6e5d2e2efc8c81ce"
             style="display: none;"
           />
@@ -2544,36 +2867,44 @@ exports[`<App /> App snapshot is not broken 1`] = `
             class="sc-AxhCb kNIUKJ"
           >
             <div
-              class="sc-AxhUy jZSYEE"
+              class="sc-AxhUy dxsYJB"
             >
               Siipiweikot Helsinki
             </div>
             <div
-              class="sc-AxgMl CORwf"
+              class="sc-AxgMl fFFxIt"
             >
               Herkullisia hot wingsejä
             </div>
           </div>
           <div
-            class="sc-AxheI iXcNiZ"
+            class="sc-AxheI fSuTGP"
           >
-            <span
-              class="sc-Axmtr gbpUmn"
-            >
-               Delivery 
-              3.90
-               €
-            </span>
             <div
-              class="sc-AxmLO cAKCgh"
+              class="sc-Axmtr daOfpU"
+            >
+              <img
+                alt="delivery icon"
+                class="sc-AxmLO iywtMK"
+                src=""
+              />
+              <span
+                class="sc-fzozJi jxgYyc"
+              >
+                3.90
+                 €
+              </span>
+            </div>
+            <div
+              class="sc-fzoLsD fqEnxe"
             >
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 wings
               </span>
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 hotdog
               </span>
@@ -2581,11 +2912,11 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hbyGnC"
+          class="sc-AxirZ kwveBS"
           data-testid="restaurant"
         >
           <div
-            style="display: inline-block; height: 158px; width: 210px; position: relative;"
+            style="display: inline-block; height: 100%; width: 100%; position: relative;"
           >
             <canvas
               height="32"
@@ -2596,7 +2927,7 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
           <img
             alt="Social Burgerjoint Citycenter_image"
-            class="sc-AxiKw gJLiA"
+            class="sc-AxiKw ZcBNP"
             src="https://prod-wolt-venue-images-cdn.wolt.com/5b348b31fe8992000bbec771/2be8c7738b220df2f9a0974da5c90d90"
             style="display: none;"
           />
@@ -2604,36 +2935,44 @@ exports[`<App /> App snapshot is not broken 1`] = `
             class="sc-AxhCb kNIUKJ"
           >
             <div
-              class="sc-AxhUy jZSYEE"
+              class="sc-AxhUy dxsYJB"
             >
               Social Burgerjoint Citycenter
             </div>
             <div
-              class="sc-AxgMl CORwf"
+              class="sc-AxgMl fFFxIt"
             >
               Asenneburgeri
             </div>
           </div>
           <div
-            class="sc-AxheI iXcNiZ"
+            class="sc-AxheI fSuTGP"
           >
-            <span
-              class="sc-Axmtr gbpUmn"
-            >
-               Delivery 
-              3.90
-               €
-            </span>
             <div
-              class="sc-AxmLO cAKCgh"
+              class="sc-Axmtr daOfpU"
+            >
+              <img
+                alt="delivery icon"
+                class="sc-AxmLO iywtMK"
+                src=""
+              />
+              <span
+                class="sc-fzozJi jxgYyc"
+              >
+                3.90
+                 €
+              </span>
+            </div>
+            <div
+              class="sc-fzoLsD fqEnxe"
             >
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 hamburger
               </span>
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 fries
               </span>
@@ -2641,11 +2980,11 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hbyGnC"
+          class="sc-AxirZ kwveBS"
           data-testid="restaurant"
         >
           <div
-            style="display: inline-block; height: 158px; width: 210px; position: relative;"
+            style="display: inline-block; height: 100%; width: 100%; position: relative;"
           >
             <canvas
               height="32"
@@ -2656,7 +2995,7 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
           <img
             alt="Soma Food, Kaivokatu_image"
-            class="sc-AxiKw gJLiA"
+            class="sc-AxiKw ZcBNP"
             src="https://prod-wolt-venue-images-cdn.wolt.com/57d7af84b7426f114912b2a1/75742ebe3c411262325c647a3acbd5b2"
             style="display: none;"
           />
@@ -2664,36 +3003,44 @@ exports[`<App /> App snapshot is not broken 1`] = `
             class="sc-AxhCb kNIUKJ"
           >
             <div
-              class="sc-AxhUy jZSYEE"
+              class="sc-AxhUy dxsYJB"
             >
               Soma Food, Kaivokatu
             </div>
             <div
-              class="sc-AxgMl CORwf"
+              class="sc-AxgMl fFFxIt"
             >
               Ilmiömäisiä sushiburritoja
             </div>
           </div>
           <div
-            class="sc-AxheI iXcNiZ"
+            class="sc-AxheI fSuTGP"
           >
-            <span
-              class="sc-Axmtr gbpUmn"
-            >
-               Delivery 
-              3.90
-               €
-            </span>
             <div
-              class="sc-AxmLO cAKCgh"
+              class="sc-Axmtr daOfpU"
+            >
+              <img
+                alt="delivery icon"
+                class="sc-AxmLO iywtMK"
+                src=""
+              />
+              <span
+                class="sc-fzozJi jxgYyc"
+              >
+                3.90
+                 €
+              </span>
+            </div>
+            <div
+              class="sc-fzoLsD fqEnxe"
             >
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 sushi
               </span>
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 burrito
               </span>
@@ -2701,11 +3048,11 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hbyGnC"
+          class="sc-AxirZ kwveBS"
           data-testid="restaurant"
         >
           <div
-            style="display: inline-block; height: 158px; width: 210px; position: relative;"
+            style="display: inline-block; height: 100%; width: 100%; position: relative;"
           >
             <canvas
               height="32"
@@ -2716,7 +3063,7 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
           <img
             alt="Suburritos_image"
-            class="sc-AxiKw gJLiA"
+            class="sc-AxiKw ZcBNP"
             src="https://prod-wolt-venue-images-cdn.wolt.com/556d62a8ecffe75fb9adcf72/d9656acee3ddeac948e66b9fd9a8bf89"
             style="display: none;"
           />
@@ -2724,36 +3071,44 @@ exports[`<App /> App snapshot is not broken 1`] = `
             class="sc-AxhCb kNIUKJ"
           >
             <div
-              class="sc-AxhUy jZSYEE"
+              class="sc-AxhUy dxsYJB"
             >
               Suburritos
             </div>
             <div
-              class="sc-AxgMl CORwf"
+              class="sc-AxgMl fFFxIt"
             >
               Pirteä meksikolainen
             </div>
           </div>
           <div
-            class="sc-AxheI iXcNiZ"
+            class="sc-AxheI fSuTGP"
           >
-            <span
-              class="sc-Axmtr gbpUmn"
-            >
-               Delivery 
-              3.90
-               €
-            </span>
             <div
-              class="sc-AxmLO cAKCgh"
+              class="sc-Axmtr daOfpU"
+            >
+              <img
+                alt="delivery icon"
+                class="sc-AxmLO iywtMK"
+                src=""
+              />
+              <span
+                class="sc-fzozJi jxgYyc"
+              >
+                3.90
+                 €
+              </span>
+            </div>
+            <div
+              class="sc-fzoLsD fqEnxe"
             >
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 mexican
               </span>
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 burrito
               </span>
@@ -2761,11 +3116,11 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hbyGnC"
+          class="sc-AxirZ kwveBS"
           data-testid="restaurant"
         >
           <div
-            style="display: inline-block; height: 158px; width: 210px; position: relative;"
+            style="display: inline-block; height: 100%; width: 100%; position: relative;"
           >
             <canvas
               height="32"
@@ -2776,7 +3131,7 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
           <img
             alt="Sushibar + Wine City_image"
-            class="sc-AxiKw gJLiA"
+            class="sc-AxiKw ZcBNP"
             src="https://prod-wolt-venue-images-cdn.wolt.com/5afebf92317288000b8e4c17/24797b40bc5f136cb5605f4de79c0a42"
             style="display: none;"
           />
@@ -2784,36 +3139,44 @@ exports[`<App /> App snapshot is not broken 1`] = `
             class="sc-AxhCb kNIUKJ"
           >
             <div
-              class="sc-AxhUy jZSYEE"
+              class="sc-AxhUy dxsYJB"
             >
               Sushibar + Wine City
             </div>
             <div
-              class="sc-AxgMl CORwf"
+              class="sc-AxgMl fFFxIt"
             >
               Urbaani citysuunnistaja keskustassa
             </div>
           </div>
           <div
-            class="sc-AxheI iXcNiZ"
+            class="sc-AxheI fSuTGP"
           >
-            <span
-              class="sc-Axmtr gbpUmn"
-            >
-               Delivery 
-              3.90
-               €
-            </span>
             <div
-              class="sc-AxmLO cAKCgh"
+              class="sc-Axmtr daOfpU"
+            >
+              <img
+                alt="delivery icon"
+                class="sc-AxmLO iywtMK"
+                src=""
+              />
+              <span
+                class="sc-fzozJi jxgYyc"
+              >
+                3.90
+                 €
+              </span>
+            </div>
+            <div
+              class="sc-fzoLsD fqEnxe"
             >
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 sushi
               </span>
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 japanese
               </span>
@@ -2821,11 +3184,11 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hbyGnC"
+          class="sc-AxirZ kwveBS"
           data-testid="restaurant"
         >
           <div
-            style="display: inline-block; height: 158px; width: 210px; position: relative;"
+            style="display: inline-block; height: 100%; width: 100%; position: relative;"
           >
             <canvas
               height="32"
@@ -2836,7 +3199,7 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
           <img
             alt="Taco Bell Baker's_image"
-            class="sc-AxiKw gJLiA"
+            class="sc-AxiKw ZcBNP"
             src="https://prod-wolt-venue-images-cdn.wolt.com/5ba4c27fc541b0000c1d15c3/6f47829d0b2a7f3fa357416eb04edd01-edits/7487c59e28f78880753406a4315752b8"
             style="display: none;"
           />
@@ -2844,36 +3207,44 @@ exports[`<App /> App snapshot is not broken 1`] = `
             class="sc-AxhCb kNIUKJ"
           >
             <div
-              class="sc-AxhUy jZSYEE"
+              class="sc-AxhUy dxsYJB"
             >
               Taco Bell Baker's
             </div>
             <div
-              class="sc-AxgMl CORwf"
+              class="sc-AxgMl fFFxIt"
             >
               Meksikolainen pikaruokaravintola
             </div>
           </div>
           <div
-            class="sc-AxheI iXcNiZ"
+            class="sc-AxheI fSuTGP"
           >
-            <span
-              class="sc-Axmtr gbpUmn"
-            >
-               Delivery 
-              3.90
-               €
-            </span>
             <div
-              class="sc-AxmLO cAKCgh"
+              class="sc-Axmtr daOfpU"
+            >
+              <img
+                alt="delivery icon"
+                class="sc-AxmLO iywtMK"
+                src=""
+              />
+              <span
+                class="sc-fzozJi jxgYyc"
+              >
+                3.90
+                 €
+              </span>
+            </div>
+            <div
+              class="sc-fzoLsD fqEnxe"
             >
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 mexican
               </span>
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 taco
               </span>
@@ -2881,11 +3252,11 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hbyGnC"
+          class="sc-AxirZ kwveBS"
           data-testid="restaurant"
         >
           <div
-            style="display: inline-block; height: 158px; width: 210px; position: relative;"
+            style="display: inline-block; height: 100%; width: 100%; position: relative;"
           >
             <canvas
               height="32"
@@ -2896,7 +3267,7 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
           <img
             alt="Vapiano Mikonkatu_image"
-            class="sc-AxiKw gJLiA"
+            class="sc-AxiKw ZcBNP"
             src="https://prod-wolt-venue-images-cdn.wolt.com/5c1bb3c58d5781000abfd079/0ff324c4df574ddc1a6699cf26992b55"
             style="display: none;"
           />
@@ -2904,36 +3275,44 @@ exports[`<App /> App snapshot is not broken 1`] = `
             class="sc-AxhCb kNIUKJ"
           >
             <div
-              class="sc-AxhUy jZSYEE"
+              class="sc-AxhUy dxsYJB"
             >
               Vapiano Mikonkatu
             </div>
             <div
-              class="sc-AxgMl CORwf"
+              class="sc-AxgMl fFFxIt"
             >
               Home of Freshness
             </div>
           </div>
           <div
-            class="sc-AxheI iXcNiZ"
+            class="sc-AxheI fSuTGP"
           >
-            <span
-              class="sc-Axmtr gbpUmn"
-            >
-               Delivery 
-              3.90
-               €
-            </span>
             <div
-              class="sc-AxmLO cAKCgh"
+              class="sc-Axmtr daOfpU"
+            >
+              <img
+                alt="delivery icon"
+                class="sc-AxmLO iywtMK"
+                src=""
+              />
+              <span
+                class="sc-fzozJi jxgYyc"
+              >
+                3.90
+                 €
+              </span>
+            </div>
+            <div
+              class="sc-fzoLsD fqEnxe"
             >
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 pizza
               </span>
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 pasta
               </span>
@@ -2941,11 +3320,11 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hbyGnC"
+          class="sc-AxirZ kwveBS"
           data-testid="restaurant"
         >
           <div
-            style="display: inline-block; height: 158px; width: 210px; position: relative;"
+            style="display: inline-block; height: 100%; width: 100%; position: relative;"
           >
             <canvas
               height="32"
@@ -2956,7 +3335,7 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
           <img
             alt="Woolshed – Australian Gastropub_image"
-            class="sc-AxiKw gJLiA"
+            class="sc-AxiKw ZcBNP"
             src="https://prod-wolt-venue-images-cdn.wolt.com/55f71c7ec04ebe16e6859aa7/121b9eccc7d813b541aa42a164fdf4ed"
             style="display: none;"
           />
@@ -2964,36 +3343,44 @@ exports[`<App /> App snapshot is not broken 1`] = `
             class="sc-AxhCb kNIUKJ"
           >
             <div
-              class="sc-AxhUy jZSYEE"
+              class="sc-AxhUy dxsYJB"
             >
               Woolshed – Australian Gastropub
             </div>
             <div
-              class="sc-AxgMl CORwf"
+              class="sc-AxgMl fFFxIt"
             >
               Gourmet burgerit Australiasta
             </div>
           </div>
           <div
-            class="sc-AxheI iXcNiZ"
+            class="sc-AxheI fSuTGP"
           >
-            <span
-              class="sc-Axmtr gbpUmn"
-            >
-               Delivery 
-              3.90
-               €
-            </span>
             <div
-              class="sc-AxmLO cAKCgh"
+              class="sc-Axmtr daOfpU"
+            >
+              <img
+                alt="delivery icon"
+                class="sc-AxmLO iywtMK"
+                src=""
+              />
+              <span
+                class="sc-fzozJi jxgYyc"
+              >
+                3.90
+                 €
+              </span>
+            </div>
+            <div
+              class="sc-fzoLsD fqEnxe"
             >
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 gourmet
               </span>
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 hamburger
               </span>
@@ -3001,11 +3388,11 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
         </div>
         <div
-          class="sc-AxirZ hbyGnC"
+          class="sc-AxirZ kwveBS"
           data-testid="restaurant"
         >
           <div
-            style="display: inline-block; height: 158px; width: 210px; position: relative;"
+            style="display: inline-block; height: 100%; width: 100%; position: relative;"
           >
             <canvas
               height="32"
@@ -3016,7 +3403,7 @@ exports[`<App /> App snapshot is not broken 1`] = `
           </div>
           <img
             alt="Zhonghua_image"
-            class="sc-AxiKw gJLiA"
+            class="sc-AxiKw ZcBNP"
             src="https://prod-wolt-venue-images-cdn.wolt.com/59896f61a417b71d931cad15/fa978b3cd169758ecf13e8b7cd6c6aea"
             style="display: none;"
           />
@@ -3024,36 +3411,44 @@ exports[`<App /> App snapshot is not broken 1`] = `
             class="sc-AxhCb kNIUKJ"
           >
             <div
-              class="sc-AxhUy jZSYEE"
+              class="sc-AxhUy dxsYJB"
             >
               Zhonghua
             </div>
             <div
-              class="sc-AxgMl CORwf"
+              class="sc-AxgMl fFFxIt"
             >
               Makuja Aasiasta
             </div>
           </div>
           <div
-            class="sc-AxheI iXcNiZ"
+            class="sc-AxheI fSuTGP"
           >
-            <span
-              class="sc-Axmtr gbpUmn"
-            >
-               Delivery 
-              3.90
-               €
-            </span>
             <div
-              class="sc-AxmLO cAKCgh"
+              class="sc-Axmtr daOfpU"
+            >
+              <img
+                alt="delivery icon"
+                class="sc-AxmLO iywtMK"
+                src=""
+              />
+              <span
+                class="sc-fzozJi jxgYyc"
+              >
+                3.90
+                 €
+              </span>
+            </div>
+            <div
+              class="sc-fzoLsD fqEnxe"
             >
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 asian
               </span>
               <span
-                class="sc-fzozJi fSOJId"
+                class="sc-fzpans emwnyc"
               >
                 chinese
               </span>

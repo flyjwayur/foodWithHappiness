@@ -22,8 +22,7 @@ exports[`<Restaurants /> Display lists of restaurants 1`] = `
 
 .c2 {
   border-radius: 8px 8px 0 0;
-  width: 210px;
-  height: 158px;
+  width: 100%;
 }
 
 .c3 {
@@ -57,7 +56,7 @@ exports[`<Restaurants /> Display lists of restaurants 1`] = `
 
 .c6 {
   border-top: 1px dashed #e4e4e4;
-  font-size: 12px;
+  font-size: 1rem;
   color: #868789;
   padding: 0.5rem 1rem;
   display: -webkit-box;
@@ -71,11 +70,25 @@ exports[`<Restaurants /> Display lists of restaurants 1`] = `
 }
 
 .c7 {
-  font-size: 0.8rem;
-  line-height: 1.3rem;
+  font-size: 0.73rem;
+  line-height: 0.9rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .c8 {
+  width: 0.9rem;
+  height: 0.9rem;
+  padding-right: 0.3rem;
+}
+
+.c9 {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
@@ -112,13 +125,44 @@ exports[`<Restaurants /> Display lists of restaurants 1`] = `
 
 @media (max-width:1200px) {
   .c1 {
-    min-width: 25rem;
+    min-width: 16rem;
   }
 }
 
 @media (max-width:900px) {
   .c1 {
-    min-width: 19rem;
+    min-width: 15rem;
+  }
+}
+
+@media (max-width:600px) {
+  .c1 {
+    min-width: 14rem;
+  }
+}
+
+@media (max-width:900px) {
+  .c4 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width:900px) {
+  .c5 {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width:900px) {
+  .c6 {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width:900px) {
+  .c9 {
+    padding: 0.3rem;
+    margin: 0.1rem;
   }
 }
 
@@ -128,6 +172,23 @@ exports[`<Restaurants /> Display lists of restaurants 1`] = `
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
+  }
+
+  .c0 > div {
+    width: calc(30% - 1.065rem);
+  }
+}
+
+@media (max-width:900px) {
+  .c0 {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .c0 > div {
+    width: calc(28% - 1.065rem);
   }
 }
 
@@ -146,7 +207,7 @@ exports[`<Restaurants /> Display lists of restaurants 1`] = `
     data-testid="restaurant"
   >
     <div
-      style="display: inline-block; height: 158px; width: 210px; position: relative;"
+      style="display: inline-block; height: 100%; width: 100%; position: relative;"
     >
       <canvas
         height="32"
@@ -178,23 +239,31 @@ exports[`<Restaurants /> Display lists of restaurants 1`] = `
     <div
       class="c6"
     >
-      <span
+      <div
         class="c7"
       >
-         Delivery 
-        3.90
-         €
-      </span>
+        <img
+          alt="delivery icon"
+          class="c8"
+          src=""
+        />
+        <span
+          class=""
+        >
+          3.90
+           €
+        </span>
+      </div>
       <div
         class=""
       >
         <span
-          class="c8"
+          class="c9"
         >
           hamburger
         </span>
         <span
-          class="c8"
+          class="c9"
         >
           fries
         </span>
@@ -206,7 +275,7 @@ exports[`<Restaurants /> Display lists of restaurants 1`] = `
     data-testid="restaurant"
   >
     <div
-      style="display: inline-block; height: 158px; width: 210px; position: relative;"
+      style="display: inline-block; height: 100%; width: 100%; position: relative;"
     >
       <canvas
         height="32"
@@ -238,23 +307,31 @@ exports[`<Restaurants /> Display lists of restaurants 1`] = `
     <div
       class="c6"
     >
-      <span
+      <div
         class="c7"
       >
-         Delivery 
-        3.90
-         €
-      </span>
+        <img
+          alt="delivery icon"
+          class="c8"
+          src=""
+        />
+        <span
+          class=""
+        >
+          3.90
+           €
+        </span>
+      </div>
       <div
         class=""
       >
         <span
-          class="c8"
+          class="c9"
         >
           hamburger
         </span>
         <span
-          class="c8"
+          class="c9"
         >
           fries
         </span>
@@ -266,7 +343,7 @@ exports[`<Restaurants /> Display lists of restaurants 1`] = `
     data-testid="restaurant"
   >
     <div
-      style="display: inline-block; height: 158px; width: 210px; position: relative;"
+      style="display: inline-block; height: 100%; width: 100%; position: relative;"
     >
       <canvas
         height="32"
@@ -298,23 +375,31 @@ exports[`<Restaurants /> Display lists of restaurants 1`] = `
     <div
       class="c6"
     >
-      <span
+      <div
         class="c7"
       >
-         Delivery 
-        3.90
-         €
-      </span>
+        <img
+          alt="delivery icon"
+          class="c8"
+          src=""
+        />
+        <span
+          class=""
+        >
+          3.90
+           €
+        </span>
+      </div>
       <div
         class=""
       >
         <span
-          class="c8"
+          class="c9"
         >
           hamburger
         </span>
         <span
-          class="c8"
+          class="c9"
         >
           fries
         </span>
@@ -326,7 +411,7 @@ exports[`<Restaurants /> Display lists of restaurants 1`] = `
     data-testid="restaurant"
   >
     <div
-      style="display: inline-block; height: 158px; width: 210px; position: relative;"
+      style="display: inline-block; height: 100%; width: 100%; position: relative;"
     >
       <canvas
         height="32"
@@ -358,23 +443,31 @@ exports[`<Restaurants /> Display lists of restaurants 1`] = `
     <div
       class="c6"
     >
-      <span
+      <div
         class="c7"
       >
-         Delivery 
-        3.90
-         €
-      </span>
+        <img
+          alt="delivery icon"
+          class="c8"
+          src=""
+        />
+        <span
+          class=""
+        >
+          3.90
+           €
+        </span>
+      </div>
       <div
         class=""
       >
         <span
-          class="c8"
+          class="c9"
         >
           hamburger
         </span>
         <span
-          class="c8"
+          class="c9"
         >
           fries
         </span>
