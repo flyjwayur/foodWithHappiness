@@ -31,7 +31,7 @@
 - Clone the repository git clone https://github.com/flyjwayur/foodWithHappiness.git
 - Navigate into the directory cd foodWithHappiness
 - Install dependencies `yarn`
-- Start the project with `yarn run dev`
+- Start the project with `yarn run start`
 
 ### 2. Formatting/Linting
 
@@ -62,6 +62,6 @@
 
 - Search restaurants
 - Filter restaurants with online possibility
-- React Component test with Jest
+- React Component test with Jest (Some components has component tests + snapshot tests)
 - Component driven development with Storybook
   (Storybook needs to be configured more with TS)
